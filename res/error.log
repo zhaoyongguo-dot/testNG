@@ -1,0 +1,388 @@
+1835 [main] INFO  com.okhttp.OkHttpGet - return code is--->:200
+1838 [main] INFO  com.okhttp.OkHttpGet - return headers is--->:date: Sun, 02 May 2021 18:37:52 GMT
+content-type: text/html; charset=utf-8
+vary: Accept-Encoding
+cache-control: no-cache, no-store
+pragma: no-cache
+set-cookie: .AspNetCore.Antiforgery.b8-pDmTq1XM=CfDJ8L-rpLgFVEJMgssCVvNUAjve81xykVYns3f6LmU8h5Zc3NGxlfqmKvtBO06FbFxGyZY6vTMpLzlz0lB9ekqzPrtFdZYKP2kxvo70cEvicFgZ9rNjRgRL9xJB4V-P1wGfZ5a2zNUHMdhQmTNEh4ALhps; path=/; httponly
+strict-transport-security: max-age=2592000; includeSubDomains; preload
+x-frame-options: SAMEORIGIN
+
+1838 [main] INFO  com.okhttp.OkHttpGet - return body is--->:okhttp3.internal.http.RealResponseBody@3febb011
+1834 [main] INFO  com.okhttp.OkHttpGet - return code is--->:200
+1838 [main] INFO  com.okhttp.OkHttpGet - return headers is--->:date: Sun, 02 May 2021 18:38:42 GMT
+content-type: text/html; charset=utf-8
+vary: Accept-Encoding
+cache-control: no-cache, no-store
+pragma: no-cache
+set-cookie: .AspNetCore.Antiforgery.b8-pDmTq1XM=CfDJ8L-rpLgFVEJMgssCVvNUAjsUKWrq9ma86ALEp7qrW-Qors5B0y6jhdkxJ0QR2giTxK-560HkCx49QsSHwWq7xs6GqGY5N4_B142DtlvRj2kxvlFRm1iMVQeGRijyqmq-HHOhDsHk7XrW0WYDPLQi5DU; path=/; httponly
+strict-transport-security: max-age=2592000; includeSubDomains; preload
+x-frame-options: SAMEORIGIN
+
+1838 [main] INFO  com.okhttp.OkHttpGet - return body is--->:okhttp3.internal.http.RealResponseBody@3febb011
+2021-05-03 02:39:58.380 [INFO] com.okhttp.OkHttpGet: return code is--->:200
+2021-05-03 02:39:58.382 [INFO] com.okhttp.OkHttpGet: return headers is--->:date: Sun, 02 May 2021 18:40:00 GMT
+content-type: text/html; charset=utf-8
+vary: Accept-Encoding
+cache-control: no-cache, no-store
+pragma: no-cache
+set-cookie: .AspNetCore.Antiforgery.b8-pDmTq1XM=CfDJ8L-rpLgFVEJMgssCVvNUAju7z1Y9sEukEL2-QevtN2xtOn26lPT7cVER66PsidcrKnK1FLdivqrYD9SU51mQAqpsXsgDdoxrwlKKJhrxikv4Ph1qd4s96Z4FeZg8dqH9SVXDHeQgwAIPF7Mqhfeayxc; path=/; httponly
+strict-transport-security: max-age=2592000; includeSubDomains; preload
+x-frame-options: SAMEORIGIN
+
+2021-05-03 02:39:58.382 [INFO] com.okhttp.OkHttpGet: return body is--->:okhttp3.internal.http.RealResponseBody@1d2adfbe
+2021-05-03 11:59:39.670 [INFO] com.okhttp.OkHttpGet: return code is--->:200
+2021-05-03 11:59:39.673 [INFO] com.okhttp.OkHttpGet: return headers is--->:date: Mon, 03 May 2021 03:59:37 GMT
+content-type: text/html; charset=utf-8
+vary: Accept-Encoding
+cache-control: no-cache, no-store
+pragma: no-cache
+set-cookie: .AspNetCore.Antiforgery.b8-pDmTq1XM=CfDJ8L-rpLgFVEJMgssCVvNUAjsNcH7HuakqP0rk8gq7MGfsGRoACTTPiKjrhYKmOxsb35aQz-dx1Y8_76QwEK-X76V0gnyrTxrFpMMk4Ae-4UvS7IhAMjTAjzitZv9V67N_IgeiWaQNtgvzC7pKT79jZuA; path=/; httponly
+strict-transport-security: max-age=2592000; includeSubDomains; preload
+x-frame-options: SAMEORIGIN
+
+2021-05-03 11:59:39.673 [INFO] com.okhttp.OkHttpGet: return body is--->:okhttp3.internal.http.RealResponseBody@1d2adfbe
+2021-05-03 14:03:06.109 [INFO] com.okhttp.OkHttpGet: return code is--->:200
+2021-05-03 14:03:06.112 [INFO] com.okhttp.OkHttpGet: return headers is--->:Date: Mon, 03 May 2021 06:03:03 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=44f89ae7cb560e718df5ee8dd3adfa006d8f9b604da3fd9bce44873f183ba52a; Path=/; HttpOnly
+Etag: 43d0924b8ad0e9a8c409b5695a52598d
+
+2021-05-03 14:03:06.112 [INFO] com.okhttp.OkHttpGet: return body is--->:okhttp3.internal.http.RealResponseBody@4278a03f
+2021-05-03 14:03:53.636 [INFO] com.okhttp.OkHttpGet: return code is--->:200
+2021-05-03 14:03:53.639 [INFO] com.okhttp.OkHttpGet: return headers is--->:Date: Mon, 03 May 2021 06:03:50 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=92fb87c020cd5d5b78af61dc6ec801174d4e6ffeb6515def89bb53e33484dcc3; Path=/; HttpOnly
+Etag: 1c164be48a64148b6d3021daacc54a99
+
+2021-05-03 14:03:53.639 [INFO] com.okhttp.OkHttpGet: return body is--->:okhttp3.internal.http.RealResponseBody@4278a03f
+2021-05-03 14:11:01.078 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 14:11:01.081 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 06:10:58 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=7e95ac54880647329c50662e05020cb395999428f68e6caf02f87b1e744a740f; Path=/; HttpOnly
+Etag: 1c164be48a64148b6d3021daacc54a99
+
+2021-05-03 14:11:01.081 [INFO] com.okhttp.HttpUtil: return body is--->:okhttp3.internal.http.RealResponseBody@483f6d77
+2021-05-03 14:11:01.137 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 14:11:01.137 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 06:10:58 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=455dadad4d8a91e1f1ba004c4011ac7a35df7155063390ab1549627a44db68b5; Path=/; HttpOnly
+Etag: 1c164be48a64148b6d3021daacc54a99
+
+2021-05-03 14:11:01.137 [INFO] com.okhttp.HttpUtil: return body is--->:okhttp3.internal.http.RealResponseBody@662b4c69
+2021-05-03 14:11:01.404 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 14:11:01.404 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 06:10:58 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=399fbf9185e8ebe0f02df25f92a334fd912462ea9003d83f0a619d70a4290426; Path=/; HttpOnly
+Etag: 43d0924b8ad0e9a8c409b5695a52598d
+
+2021-05-03 14:11:01.404 [INFO] com.okhttp.HttpUtil: return body is--->:okhttp3.internal.http.RealResponseBody@2a54a73f
+2021-05-03 14:25:36.541 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 14:25:36.543 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 06:25:33 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=f7368327e5e0f57ced0c03c139ae64bc424d6e22c2074fcc58f3439b8b518b21; Path=/; HttpOnly
+Etag: 1c164be48a64148b6d3021daacc54a99
+
+2021-05-03 14:25:36.544 [INFO] com.okhttp.HttpUtil: return body is--->:okhttp3.internal.http.RealResponseBody@483f6d77
+2021-05-03 14:25:36.595 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 14:25:36.595 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 06:25:33 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=7f8323a669cfe971c3e47a37c6fb8ae52ce3b69ec694d55196edcd84822f6e9b; Path=/; HttpOnly
+Etag: 1c164be48a64148b6d3021daacc54a99
+
+2021-05-03 14:25:36.595 [INFO] com.okhttp.HttpUtil: return body is--->:okhttp3.internal.http.RealResponseBody@3d6f0054
+2021-05-03 14:25:36.637 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 14:25:36.638 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 06:25:33 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=436cc524fafa0c1b7f91ba901c385d51ab278e330466a4c66ba46f66bd9fd6e7; Path=/; HttpOnly
+Etag: 43d0924b8ad0e9a8c409b5695a52598d
+
+2021-05-03 14:25:36.638 [INFO] com.okhttp.HttpUtil: return body is--->:okhttp3.internal.http.RealResponseBody@25084a1e
+2021-05-03 14:29:48.699 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 14:29:48.702 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 06:29:45 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=7d1ea3ccf56eb30edd0428d8a516ecf59ab640887b092d8e1ce843b8d18205dd; Path=/; HttpOnly
+Etag: 43d0924b8ad0e9a8c409b5695a52598d
+
+2021-05-03 14:29:48.702 [INFO] com.okhttp.HttpUtil: return body is--->:okhttp3.internal.http.RealResponseBody@483f6d77
+2021-05-03 14:29:48.767 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 14:29:48.767 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 06:29:46 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=e5388a87f073f6f0432ba17c2ab7e309ffba368e507f4a6ccf8bc52bc33bd66e; Path=/; HttpOnly
+Etag: 43d0924b8ad0e9a8c409b5695a52598d
+
+2021-05-03 14:29:48.767 [INFO] com.okhttp.HttpUtil: return body is--->:okhttp3.internal.http.RealResponseBody@3d6f0054
+2021-05-03 14:29:48.814 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 14:29:48.815 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 06:29:46 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=6ee76375f4a7e1dcae1136c345bb11bfb489c74149b58d3264682ff069949f52; Path=/; HttpOnly
+Etag: 1c164be48a64148b6d3021daacc54a99
+
+2021-05-03 14:29:48.815 [INFO] com.okhttp.HttpUtil: return body is--->:okhttp3.internal.http.RealResponseBody@bd4dc25
+2021-05-03 14:30:52.285 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 14:30:52.288 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 06:30:49 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=cc33a01f620fe8243bf555038b85da7ce1115fe60b9ac689ea6b295d40dcce51; Path=/; HttpOnly
+Etag: 1c164be48a64148b6d3021daacc54a99
+
+2021-05-03 14:30:52.288 [INFO] com.okhttp.HttpUtil: return body is--->:okhttp3.internal.http.RealResponseBody@483f6d77
+2021-05-03 14:30:52.340 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 14:30:52.341 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 06:30:49 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=6a5384438f6c12f7b4fe3520fd8e72e07d9383e1ed9c22ee253f658cc06ce377; Path=/; HttpOnly
+Etag: 43d0924b8ad0e9a8c409b5695a52598d
+
+2021-05-03 14:30:52.341 [INFO] com.okhttp.HttpUtil: return body is--->:okhttp3.internal.http.RealResponseBody@3d6f0054
+2021-05-03 14:30:52.389 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 14:30:52.390 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 06:30:49 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=6cee46040ae1cd00011ff08dc49d409c08ec461803113b8c310523d98b83cd47; Path=/; HttpOnly
+Etag: 43d0924b8ad0e9a8c409b5695a52598d
+
+2021-05-03 14:30:52.390 [INFO] com.okhttp.HttpUtil: return body is--->:okhttp3.internal.http.RealResponseBody@bd4dc25
+2021-05-03 14:31:05.028 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 14:31:05.031 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 06:31:02 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=9608ee063b2619595dbea4df9ff74dc6f118ea1a146e11ecc25c8112ef25ef5e; Path=/; HttpOnly
+Etag: 1c164be48a64148b6d3021daacc54a99
+
+2021-05-03 14:31:05.031 [INFO] com.okhttp.HttpUtil: return body is--->:okhttp3.internal.http.RealResponseBody@64df9a61
+2021-05-03 14:32:15.022 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 14:32:15.022 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 06:32:12 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=7fce4a6d604f8c56edc85b41f65ee7cddcc79429e1d8f7882485fe1f96e49710; Path=/; HttpOnly
+Etag: 43d0924b8ad0e9a8c409b5695a52598d
+
+2021-05-03 14:32:15.022 [INFO] com.okhttp.HttpUtil: return body is--->:okhttp3.internal.http.RealResponseBody@24bdb479
+2021-05-03 14:32:23.186 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 14:32:23.186 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 06:32:20 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=78102b090c22dfaac7e0350776f2d05f5c637dd3f65082cdda964ccef1673e4c; Path=/; HttpOnly
+Etag: 43d0924b8ad0e9a8c409b5695a52598d
+
+2021-05-03 14:32:23.186 [INFO] com.okhttp.HttpUtil: return body is--->:okhttp3.internal.http.RealResponseBody@65aa6596
+2021-05-03 14:33:57.571 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 14:33:57.575 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 06:33:54 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=d58a859957f2c0b6594e1b15dfa8a2cfc5035e5fad25a0d4140acce9ffb43a4e; Path=/; HttpOnly
+Etag: 43d0924b8ad0e9a8c409b5695a52598d
+
+2021-05-03 14:35:30.230 [INFO] com.okhttp.HttpUtil: return body is--->:okhttp3.internal.http.RealResponseBody@34a97744
+2021-05-03 14:35:36.595 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 14:35:36.595 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 06:35:33 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=388bf8dd2d843f6aabad4c1009a8c732c9817ead7637022d1575d42635c48937; Path=/; HttpOnly
+Etag: 1c164be48a64148b6d3021daacc54a99
+
+2021-05-03 14:35:36.595 [INFO] com.okhttp.HttpUtil: return body is--->:okhttp3.internal.http.RealResponseBody@34625ccd
+2021-05-03 15:02:44.741 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 15:02:44.744 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 07:02:41 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=b6458f7f2f4f13534778f08ace529411ccbc524447b23444d00c683863086fe8; Path=/; HttpOnly
+Etag: 1c164be48a64148b6d3021daacc54a99
+
+2021-05-03 15:02:44.747 [INFO] com.okhttp.HttpUtil: return body is--->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 15:02:44.803 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 15:02:44.803 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 07:02:41 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=62a1005dd7e0900272fe8a4d587eec9584264edce2f3eb0815cbb63206507328; Path=/; HttpOnly
+Etag: 1c164be48a64148b6d3021daacc54a99
+
+2021-05-03 15:02:44.804 [INFO] com.okhttp.HttpUtil: return body is--->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 15:02:44.852 [INFO] com.okhttp.HttpUtil: return code is--->:200
+2021-05-03 15:02:44.852 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 07:02:41 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: aliyungf_tc=57e7a2a657a04ec9ffbf4b35106eedd66215d1c9f6b2ce92ec5049e109ccd241; Path=/; HttpOnly
+Etag: 43d0924b8ad0e9a8c409b5695a52598d
+
+2021-05-03 15:02:44.853 [INFO] com.okhttp.HttpUtil: return body is--->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-03 15:32:09.941 [INFO] com.okhttp.OkHttpGet: return code is--->:200
+2021-05-03 15:32:09.946 [INFO] com.okhttp.OkHttpGet: return body is--->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 15:33:17.545 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 15:33:17.599 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 15:33:17.644 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-03 16:00:51.258 [INFO] com.okhttp.Mobile: code is --->:200
+2021-05-03 16:00:51.261 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:00:51.308 [INFO] com.okhttp.Mobile: code is --->:200
+2021-05-03 16:00:51.308 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:00:51.340 [INFO] com.okhttp.Mobile: code is --->:200
+2021-05-03 16:00:51.340 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-03 16:00:51.390 [INFO] com.okhttp.Mobile: code is --->:200
+2021-05-03 16:00:51.390 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-03 16:07:56.574 [INFO] com.okhttp.Mobile: code is --->:200
+2021-05-03 16:07:56.577 [INFO] com.okhttp.Mobile: code is --->:200
+2021-05-03 16:07:56.577 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:07:56.635 [INFO] com.okhttp.Mobile: code is --->:200
+2021-05-03 16:07:56.636 [INFO] com.okhttp.Mobile: code is --->:200
+2021-05-03 16:07:56.636 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:07:56.673 [INFO] com.okhttp.Mobile: code is --->:200
+2021-05-03 16:07:56.673 [INFO] com.okhttp.Mobile: code is --->:101
+2021-05-03 16:07:56.674 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-03 16:07:57.031 [INFO] com.okhttp.Mobile: code is --->:200
+2021-05-03 16:07:57.031 [INFO] com.okhttp.Mobile: code is --->:202
+2021-05-03 16:07:57.031 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-03 16:08:41.486 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:08:41.489 [INFO] com.okhttp.Mobile: resultcode is --->:200
+2021-05-03 16:08:41.489 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:08:41.550 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:08:41.550 [INFO] com.okhttp.Mobile: resultcode is --->:200
+2021-05-03 16:08:41.550 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:08:41.588 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:08:41.588 [INFO] com.okhttp.Mobile: resultcode is --->:101
+2021-05-03 16:08:41.588 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-03 16:08:41.634 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:08:41.634 [INFO] com.okhttp.Mobile: resultcode is --->:202
+2021-05-03 16:08:41.634 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-03 16:11:05.501 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:11:05.504 [INFO] com.okhttp.Mobile: resultcode is --->:200
+2021-05-03 16:11:05.504 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:11:05.555 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:11:05.555 [INFO] com.okhttp.Mobile: resultcode is --->:200
+2021-05-03 16:11:05.555 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:11:05.592 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:11:05.592 [INFO] com.okhttp.Mobile: resultcode is --->:101
+2021-05-03 16:11:05.593 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-03 16:11:05.642 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:11:05.642 [INFO] com.okhttp.Mobile: resultcode is --->:202
+2021-05-03 16:11:05.642 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-03 16:12:22.229 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:12:22.232 [INFO] com.okhttp.Mobile: resultcode is --->:200
+2021-05-03 16:12:22.232 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:12:22.291 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:12:22.291 [INFO] com.okhttp.Mobile: resultcode is --->:200
+2021-05-03 16:12:22.291 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:12:22.337 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:12:22.337 [INFO] com.okhttp.Mobile: resultcode is --->:101
+2021-05-03 16:12:22.337 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-03 16:12:22.393 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:12:22.393 [INFO] com.okhttp.Mobile: resultcode is --->:202
+2021-05-03 16:12:22.393 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-03 16:14:15.486 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:14:15.488 [INFO] com.okhttp.Mobile: resultcode is --->:200
+2021-05-03 16:14:15.488 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:14:15.558 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:14:15.558 [INFO] com.okhttp.Mobile: resultcode is --->:200
+2021-05-03 16:14:15.559 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:14:15.598 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:14:15.598 [INFO] com.okhttp.Mobile: resultcode is --->:101
+2021-05-03 16:14:15.598 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-03 16:14:15.651 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:14:15.651 [INFO] com.okhttp.Mobile: resultcode is --->:202
+2021-05-03 16:14:15.651 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-03 16:15:58.383 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:15:58.385 [INFO] com.okhttp.Mobile: resultcode is --->:200
+2021-05-03 16:15:58.386 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:15:58.439 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:15:58.439 [INFO] com.okhttp.Mobile: resultcode is --->:200
+2021-05-03 16:15:58.439 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:15:58.475 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:15:58.476 [INFO] com.okhttp.Mobile: resultcode is --->:101
+2021-05-03 16:15:58.476 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-03 16:15:58.530 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:15:58.530 [INFO] com.okhttp.Mobile: resultcode is --->:202
+2021-05-03 16:15:58.530 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-03 16:19:59.351 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:19:59.354 [INFO] com.okhttp.Mobile: resultcode is --->:200
+2021-05-03 16:19:59.354 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:19:59.404 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:19:59.404 [INFO] com.okhttp.Mobile: resultcode is --->:200
+2021-05-03 16:19:59.404 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:19:59.460 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:19:59.460 [INFO] com.okhttp.Mobile: resultcode is --->:101
+2021-05-03 16:19:59.460 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-03 16:19:59.511 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:19:59.511 [INFO] com.okhttp.Mobile: resultcode is --->:202
+2021-05-03 16:19:59.511 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-03 16:32:26.268 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:32:26.271 [INFO] com.okhttp.Mobile: resultcode is --->:200
+2021-05-03 16:32:26.271 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"����","city":"����","areacode":"0550","zip":"239000","company":"�ƶ�","card":""},"error_code":0}
+2021-05-03 16:32:26.325 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:32:26.325 [INFO] com.okhttp.Mobile: resultcode is --->:200
+2021-05-03 16:32:26.325 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"����","city":"����","areacode":"0550","zip":"239000","company":"�ƶ�","card":""},"error_code":0}
+2021-05-03 16:32:26.364 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:32:26.364 [INFO] com.okhttp.Mobile: resultcode is --->:101
+2021-05-03 16:32:26.364 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"���������KEY!!","result":null,"error_code":10001}
+2021-05-03 16:32:26.421 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:32:26.421 [INFO] com.okhttp.Mobile: resultcode is --->:202
+2021-05-03 16:32:26.421 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-03 16:44:43.441 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:44:43.444 [INFO] com.okhttp.Mobile: resultcode is --->:200
+2021-05-03 16:44:43.444 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"����","city":"����","areacode":"0550","zip":"239000","company":"�ƶ�","card":""},"error_code":0}
+2021-05-03 16:44:43.491 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:44:43.491 [INFO] com.okhttp.Mobile: resultcode is --->:200
+2021-05-03 16:44:43.491 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"����","city":"����","areacode":"0550","zip":"239000","company":"�ƶ�","card":""},"error_code":0}
+2021-05-03 16:44:43.525 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:44:43.525 [INFO] com.okhttp.Mobile: resultcode is --->:101
+2021-05-03 16:44:43.525 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"���������KEY!!","result":null,"error_code":10001}
+2021-05-03 16:44:43.583 [INFO] com.okhttp.Mobile: responsecode is --->:200
+2021-05-03 16:44:43.583 [INFO] com.okhttp.Mobile: resultcode is --->:202
+2021-05-03 16:44:43.583 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-03 17:56:15.456 [INFO] com.okhttp.OkHttpPost: return code is:200
+2021-05-03 17:56:15.459 [INFO] com.okhttp.OkHttpPost: return body is--->:okhttp3.internal.http.RealResponseBody@33afa13b
+2021-05-03 17:57:46.361 [INFO] com.okhttp.OkHttpPost: return code is:200
+2021-05-03 17:57:46.365 [INFO] com.okhttp.OkHttpPost: return body is--->:{"reason":"查询成功!","result":{"city":"上海","realtime":{"temperature":"22","humidity":"66","info":"多云","wid":"01","direct":"东北风","power":"2级","aqi":"58"},"future":[{"date":"2021-05-03","temperature":"18\/24℃","weather":"多云转小雨","wid":{"day":"01","night":"07"},"direct":"南风转北风"},{"date":"2021-05-04","temperature":"16\/22℃","weather":"中雨转阴","wid":{"day":"08","night":"02"},"direct":"北风"},{"date":"2021-05-05","temperature":"17\/25℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东北风转西南风"},{"date":"2021-05-06","temperature":"18\/25℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"东风转北风"},{"date":"2021-05-07","temperature":"19\/28℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西南风转东风"}]},"error_code":0}
+2021-05-03 17:59:06.367 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-03 17:59:06.369 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-03 17:59:06.370 [INFO] com.okhttp.Weather: body is :{"reason":"查询成功!","result":{"city":"上海","realtime":{"temperature":"22","humidity":"66","info":"多云","wid":"01","direct":"东北风","power":"2级","aqi":"58"},"future":[{"date":"2021-05-03","temperature":"18\/24℃","weather":"多云转小雨","wid":{"day":"01","night":"07"},"direct":"南风转北风"},{"date":"2021-05-04","temperature":"16\/22℃","weather":"中雨转阴","wid":{"day":"08","night":"02"},"direct":"北风"},{"date":"2021-05-05","temperature":"17\/25℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东北风转西南风"},{"date":"2021-05-06","temperature":"18\/25℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"东风转北风"},{"date":"2021-05-07","temperature":"19\/28℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西南风转东风"}]},"error_code":0}
+2021-05-03 17:59:06.424 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-03 17:59:06.424 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-03 17:59:06.425 [INFO] com.okhttp.Weather: body is :{"reason":"暂不支持该城市","result":null,"error_code":207301}
+2021-05-03 17:59:06.454 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-03 17:59:06.454 [INFO] com.okhttp.Weather: resultcode is :101
+2021-05-03 17:59:06.454 [INFO] com.okhttp.Weather: body is :{"resultcode":"101","reason":"错误的请求KEY","result":null,"error_code":10001}
+2021-05-03 18:01:42.333 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-03 18:01:42.336 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-03 18:01:42.336 [INFO] com.okhttp.Weather: body is :{"reason":"查询成功!","result":{"city":"上海","realtime":{"temperature":"22","humidity":"66","info":"多云","wid":"01","direct":"东北风","power":"2级","aqi":"58"},"future":[{"date":"2021-05-03","temperature":"18\/24℃","weather":"多云转小雨","wid":{"day":"01","night":"07"},"direct":"南风转北风"},{"date":"2021-05-04","temperature":"16\/22℃","weather":"中雨转阴","wid":{"day":"08","night":"02"},"direct":"北风"},{"date":"2021-05-05","temperature":"17\/25℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东北风转西南风"},{"date":"2021-05-06","temperature":"18\/25℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"东风转北风"},{"date":"2021-05-07","temperature":"19\/28℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西南风转东风"}]},"error_code":0}
+2021-05-03 18:01:42.336 [INFO] com.okhttp.Weather: params :city=上海&key=cd4587926813ec16367deb93688301aa
+2021-05-03 18:01:42.377 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-03 18:01:42.377 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-03 18:01:42.377 [INFO] com.okhttp.Weather: body is :{"reason":"暂不支持该城市","result":null,"error_code":207301}
+2021-05-03 18:01:42.377 [INFO] com.okhttp.Weather: params :city=bengbu&key=cd4587926813ec16367deb93688301aa
+2021-05-03 18:01:42.406 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-03 18:01:42.407 [INFO] com.okhttp.Weather: resultcode is :101
+2021-05-03 18:01:42.407 [INFO] com.okhttp.Weather: body is :{"resultcode":"101","reason":"错误的请求KEY","result":null,"error_code":10001}
+2021-05-03 18:01:42.407 [INFO] com.okhttp.Weather: params :city=上海&key=cd4587926813ec16367deb93688301a

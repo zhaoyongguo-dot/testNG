@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%p] %c: %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--变量设置  -->
+    <property name="LOG_FILE" value="D:/Kugou/IdeaProjects/testNG/res/error.log" />
+    <property name="appName" value="myJOb"/>
+    <!-- FileAppender（OutPutStreamAppender的子类）：将日志写入 文件。目标文件由file子节点来指定，如果文件已经存在，则根据append节点的值来判断是追加还是截断 -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_FILE}</file>
+        <!-- 默认为true 即在文件的末尾追加 -->
+        <append>true</append>
+        <!-- 默认情况下，每个日志事件都会立即刷新基础输出流。但是有时为了提高日志吞吐量，可以把该属性设置为false -->
+        <immediateFlush>true</immediateFlush>
+        <!-- encoder 对记录件进行格式化
+        encoder 负责将日志事件转换成一个字节数组，并写入outputStream。encoder是在0.9.19版本引入的，在此之前所有的appender依靠一个layout将事件转换成String，并把String通过输出字符流写出。
+        在之前的版本logback版本中，用户需要在FileAppender中内嵌一个PatternLayout。0.9.19之后，fileAppender和它的子类都是使用encoder
+       layout只能将事件转换为字符串，此外layout无法控制何时写入，与此相比，encoder不仅可以完全控制要写出的字节的格式，还可以控制何时（以及是否）可以写出这些字节
+       目前  PatternLayoutEncoder 是唯一真正有用的编码器
+       pattern子节点：用来控制日志的输入格式。%+转换符
+        -->
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%p] %c: %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="debug">
+        <appender-ref ref="console" />
+        <appender-ref ref="FILE" />
+    </root>
+</configuration>

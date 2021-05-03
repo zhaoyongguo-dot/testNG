@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="test_project1">
+    <test name="testDemo1">
+        <groups>
+            <!--            <run>-->
+            <!--                <include name="fast" />-->
+            <!--                <include name="slow" />-->
+            <!--            </run>-->
+        </groups>
+        <classes>
+            <class name="com.testng.Param"></class>
+        </classes>
+    </test>
+    <parameter name="fname" value="赵"></parameter>
+    <parameter name="lname" value="永国"></parameter>
+</suite>
