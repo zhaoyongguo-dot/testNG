@@ -8,18 +8,16 @@
 7. 清空生成的文件:mvn clean
 8. 显示版本信息:mvn -version/-v
 
+git add -u <==> git add –update 提交所有被删除和修改的文件到数据暂存区
+git add .                       提交所有修改的和新建的数据暂存区
+git add -A <==>git add –all     提交所有被删除、被替换、被修改和新增的文件到数据暂存区
+git commit -m "add message to README.md" -a message/all
+git push <远程主机名> <本地分支名>:<远程分支名> 我们一般会省略本地分支，因为我们就在本地分支呀~
+git push origin master
 git push --all origin    是将本地的全部进行上推，不存在的就新建分支，囫囵吞枣的全部推上去，远程与本地就一致了！！！
 git push --force origin  我们在推送的时候应该把本地也弄成最新的，fetch+merge下或者pull下就是最新的版本了。
                          我们相信本地的版本以本地的版本为准，把远程的进行覆盖，我们加上force即可，强制推送了！！！！！
 git push origin :master  远程分支的删除 等同于git push origin --delete master
-
-git push <远程主机名> <本地分支名>:<远程分支名> 我们一般会省略本地分支，因为我们就在本地分支呀~
-git push origin master
-git add -u <==> git add –update 提交所有被删除和修改的文件到数据暂存区
-git add .                       提交所有修改的和新建的数据暂存区
-git add -A <==>git add –all     提交所有被删除、被替换、被修改和新增的文件到数据暂存区
-
-
 
 test注解
 1.dependsOnMethods:依赖的方法
