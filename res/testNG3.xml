@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="test_project1">
+<suite name="test_project3">
     <test name="testDemo1">
         <groups>
             <!--            <run>-->
@@ -9,7 +9,8 @@
             <!--            </run>-->
         </groups>
         <classes>
-            <class name="com.okhttp.MobileLocal"></class>
+            <class name="com.okhttp.MobileLocal"/>
+            <class name="com.okhttp.Weather"/>
         </classes>
     </test>
 </suite>

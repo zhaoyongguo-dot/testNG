@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import okhttp3.Response;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -25,19 +26,21 @@ public class Weather {
             LOGGER.error("-----TestLogException----", e.getMessage());
         }
         JSONObject jsonObject = JSONObject.parseObject(responsebody);
-        String resultcode = (String)jsonObject.get("resultcode");
+        String reason = (String)jsonObject.get("reason");
         LOGGER.info("responsecode is :{}", response.code());
-        LOGGER.info("resultcode is :{}", resultcode);
+        LOGGER.info("reason is :{}", reason);
         LOGGER.info("body is :{}", responsebody);
         LOGGER.info("params :{}", params);
+        Assert.assertEquals(reason, "查询成功!", "查询失败");
     }
 
     @DataProvider(name = "datas")
     public Object[][] datas() {
         return new Object[][] {
             {"city=上海&key=cd4587926813ec16367deb93688301aa"},
+            {"city=上海&key=cd4587926813ec16367deb93688301aa"},
             {"city=bengbu&key=cd4587926813ec16367deb93688301aa"},
-            {"city=上海&key=cd4587926813ec16367deb93688301a"},
+            {"city=蚌埠&key=cd4587926813ec16367deb93688301aa"},
         };
     }
 }

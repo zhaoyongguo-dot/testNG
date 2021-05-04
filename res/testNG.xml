@@ -9,8 +9,8 @@
 <!--            </run>-->
         </groups>
         <classes>
-            <class name="com.testng.HelloTestNG"></class>
-            <class name="com.testng.BeforeandAfter"></class>
+            <class name="com.testng.HelloTestNG"/>
+            <class name="com.testng.BeforeandAfter"/>
         </classes>
     </test>
 </suite>

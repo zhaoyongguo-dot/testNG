@@ -221,7 +221,7 @@ Connection: keep-alive
 Set-Cookie: aliyungf_tc=b6458f7f2f4f13534778f08ace529411ccbc524447b23444d00c683863086fe8; Path=/; HttpOnly
 Etag: 1c164be48a64148b6d3021daacc54a99
 
-2021-05-03 15:02:44.747 [INFO] com.okhttp.HttpUtil: return body is--->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 15:02:44.747 [INFO] com.okhttp.HttpUtil: return body is--->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 15:02:44.803 [INFO] com.okhttp.HttpUtil: return code is--->:200
 2021-05-03 15:02:44.803 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 07:02:41 GMT
 Content-Type: application/json;charset=utf-8
@@ -230,7 +230,7 @@ Connection: keep-alive
 Set-Cookie: aliyungf_tc=62a1005dd7e0900272fe8a4d587eec9584264edce2f3eb0815cbb63206507328; Path=/; HttpOnly
 Etag: 1c164be48a64148b6d3021daacc54a99
 
-2021-05-03 15:02:44.804 [INFO] com.okhttp.HttpUtil: return body is--->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 15:02:44.804 [INFO] com.okhttp.HttpUtil: return body is--->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 15:02:44.852 [INFO] com.okhttp.HttpUtil: return code is--->:200
 2021-05-03 15:02:44.852 [INFO] com.okhttp.HttpUtil: return headers is--->:Date: Mon, 03 May 2021 07:02:41 GMT
 Content-Type: application/json;charset=utf-8
@@ -241,148 +241,284 @@ Etag: 43d0924b8ad0e9a8c409b5695a52598d
 
 2021-05-03 15:02:44.853 [INFO] com.okhttp.HttpUtil: return body is--->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
 2021-05-03 15:32:09.941 [INFO] com.okhttp.OkHttpGet: return code is--->:200
-2021-05-03 15:32:09.946 [INFO] com.okhttp.OkHttpGet: return body is--->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
-2021-05-03 15:33:17.545 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
-2021-05-03 15:33:17.599 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 15:32:09.946 [INFO] com.okhttp.OkHttpGet: return body is--->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
+2021-05-03 15:33:17.545 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
+2021-05-03 15:33:17.599 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 15:33:17.644 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
 2021-05-03 16:00:51.258 [INFO] com.okhttp.Mobile: code is --->:200
-2021-05-03 16:00:51.261 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:00:51.261 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 16:00:51.308 [INFO] com.okhttp.Mobile: code is --->:200
-2021-05-03 16:00:51.308 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:00:51.308 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 16:00:51.340 [INFO] com.okhttp.Mobile: code is --->:200
-2021-05-03 16:00:51.340 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-03 16:00:51.340 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"閿欒鐨勮姹侹EY!!","result":null,"error_code":10001}
 2021-05-03 16:00:51.390 [INFO] com.okhttp.Mobile: code is --->:200
 2021-05-03 16:00:51.390 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
 2021-05-03 16:07:56.574 [INFO] com.okhttp.Mobile: code is --->:200
 2021-05-03 16:07:56.577 [INFO] com.okhttp.Mobile: code is --->:200
-2021-05-03 16:07:56.577 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:07:56.577 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 16:07:56.635 [INFO] com.okhttp.Mobile: code is --->:200
 2021-05-03 16:07:56.636 [INFO] com.okhttp.Mobile: code is --->:200
-2021-05-03 16:07:56.636 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:07:56.636 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 16:07:56.673 [INFO] com.okhttp.Mobile: code is --->:200
 2021-05-03 16:07:56.673 [INFO] com.okhttp.Mobile: code is --->:101
-2021-05-03 16:07:56.674 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-03 16:07:56.674 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"閿欒鐨勮姹侹EY!!","result":null,"error_code":10001}
 2021-05-03 16:07:57.031 [INFO] com.okhttp.Mobile: code is --->:200
 2021-05-03 16:07:57.031 [INFO] com.okhttp.Mobile: code is --->:202
 2021-05-03 16:07:57.031 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
 2021-05-03 16:08:41.486 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:08:41.489 [INFO] com.okhttp.Mobile: resultcode is --->:200
-2021-05-03 16:08:41.489 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:08:41.489 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 16:08:41.550 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:08:41.550 [INFO] com.okhttp.Mobile: resultcode is --->:200
-2021-05-03 16:08:41.550 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:08:41.550 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 16:08:41.588 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:08:41.588 [INFO] com.okhttp.Mobile: resultcode is --->:101
-2021-05-03 16:08:41.588 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-03 16:08:41.588 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"閿欒鐨勮姹侹EY!!","result":null,"error_code":10001}
 2021-05-03 16:08:41.634 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:08:41.634 [INFO] com.okhttp.Mobile: resultcode is --->:202
 2021-05-03 16:08:41.634 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
 2021-05-03 16:11:05.501 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:11:05.504 [INFO] com.okhttp.Mobile: resultcode is --->:200
-2021-05-03 16:11:05.504 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:11:05.504 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 16:11:05.555 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:11:05.555 [INFO] com.okhttp.Mobile: resultcode is --->:200
-2021-05-03 16:11:05.555 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:11:05.555 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 16:11:05.592 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:11:05.592 [INFO] com.okhttp.Mobile: resultcode is --->:101
-2021-05-03 16:11:05.593 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-03 16:11:05.593 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"閿欒鐨勮姹侹EY!!","result":null,"error_code":10001}
 2021-05-03 16:11:05.642 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:11:05.642 [INFO] com.okhttp.Mobile: resultcode is --->:202
 2021-05-03 16:11:05.642 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
 2021-05-03 16:12:22.229 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:12:22.232 [INFO] com.okhttp.Mobile: resultcode is --->:200
-2021-05-03 16:12:22.232 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:12:22.232 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 16:12:22.291 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:12:22.291 [INFO] com.okhttp.Mobile: resultcode is --->:200
-2021-05-03 16:12:22.291 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:12:22.291 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 16:12:22.337 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:12:22.337 [INFO] com.okhttp.Mobile: resultcode is --->:101
-2021-05-03 16:12:22.337 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-03 16:12:22.337 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"閿欒鐨勮姹侹EY!!","result":null,"error_code":10001}
 2021-05-03 16:12:22.393 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:12:22.393 [INFO] com.okhttp.Mobile: resultcode is --->:202
 2021-05-03 16:12:22.393 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
 2021-05-03 16:14:15.486 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:14:15.488 [INFO] com.okhttp.Mobile: resultcode is --->:200
-2021-05-03 16:14:15.488 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:14:15.488 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 16:14:15.558 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:14:15.558 [INFO] com.okhttp.Mobile: resultcode is --->:200
-2021-05-03 16:14:15.559 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:14:15.559 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 16:14:15.598 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:14:15.598 [INFO] com.okhttp.Mobile: resultcode is --->:101
-2021-05-03 16:14:15.598 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-03 16:14:15.598 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"閿欒鐨勮姹侹EY!!","result":null,"error_code":10001}
 2021-05-03 16:14:15.651 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:14:15.651 [INFO] com.okhttp.Mobile: resultcode is --->:202
 2021-05-03 16:14:15.651 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
 2021-05-03 16:15:58.383 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:15:58.385 [INFO] com.okhttp.Mobile: resultcode is --->:200
-2021-05-03 16:15:58.386 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:15:58.386 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 16:15:58.439 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:15:58.439 [INFO] com.okhttp.Mobile: resultcode is --->:200
-2021-05-03 16:15:58.439 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:15:58.439 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 16:15:58.475 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:15:58.476 [INFO] com.okhttp.Mobile: resultcode is --->:101
-2021-05-03 16:15:58.476 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-03 16:15:58.476 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"閿欒鐨勮姹侹EY!!","result":null,"error_code":10001}
 2021-05-03 16:15:58.530 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:15:58.530 [INFO] com.okhttp.Mobile: resultcode is --->:202
 2021-05-03 16:15:58.530 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
 2021-05-03 16:19:59.351 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:19:59.354 [INFO] com.okhttp.Mobile: resultcode is --->:200
-2021-05-03 16:19:59.354 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:19:59.354 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 16:19:59.404 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:19:59.404 [INFO] com.okhttp.Mobile: resultcode is --->:200
-2021-05-03 16:19:59.404 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-03 16:19:59.404 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"瀹夊窘","city":"婊佸窞","areacode":"0550","zip":"239000","company":"绉诲姩","card":""},"error_code":0}
 2021-05-03 16:19:59.460 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:19:59.460 [INFO] com.okhttp.Mobile: resultcode is --->:101
-2021-05-03 16:19:59.460 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-03 16:19:59.460 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"閿欒鐨勮姹侹EY!!","result":null,"error_code":10001}
 2021-05-03 16:19:59.511 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:19:59.511 [INFO] com.okhttp.Mobile: resultcode is --->:202
 2021-05-03 16:19:59.511 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
 2021-05-03 16:32:26.268 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:32:26.271 [INFO] com.okhttp.Mobile: resultcode is --->:200
-2021-05-03 16:32:26.271 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"����","city":"����","areacode":"0550","zip":"239000","company":"�ƶ�","card":""},"error_code":0}
+2021-05-03 16:32:26.271 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
 2021-05-03 16:32:26.325 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:32:26.325 [INFO] com.okhttp.Mobile: resultcode is --->:200
-2021-05-03 16:32:26.325 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"����","city":"����","areacode":"0550","zip":"239000","company":"�ƶ�","card":""},"error_code":0}
+2021-05-03 16:32:26.325 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
 2021-05-03 16:32:26.364 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:32:26.364 [INFO] com.okhttp.Mobile: resultcode is --->:101
-2021-05-03 16:32:26.364 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"���������KEY!!","result":null,"error_code":10001}
+2021-05-03 16:32:26.364 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
 2021-05-03 16:32:26.421 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:32:26.421 [INFO] com.okhttp.Mobile: resultcode is --->:202
 2021-05-03 16:32:26.421 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
 2021-05-03 16:44:43.441 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:44:43.444 [INFO] com.okhttp.Mobile: resultcode is --->:200
-2021-05-03 16:44:43.444 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"����","city":"����","areacode":"0550","zip":"239000","company":"�ƶ�","card":""},"error_code":0}
+2021-05-03 16:44:43.444 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
 2021-05-03 16:44:43.491 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:44:43.491 [INFO] com.okhttp.Mobile: resultcode is --->:200
-2021-05-03 16:44:43.491 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"����","city":"����","areacode":"0550","zip":"239000","company":"�ƶ�","card":""},"error_code":0}
+2021-05-03 16:44:43.491 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
 2021-05-03 16:44:43.525 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:44:43.525 [INFO] com.okhttp.Mobile: resultcode is --->:101
-2021-05-03 16:44:43.525 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"���������KEY!!","result":null,"error_code":10001}
+2021-05-03 16:44:43.525 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
 2021-05-03 16:44:43.583 [INFO] com.okhttp.Mobile: responsecode is --->:200
 2021-05-03 16:44:43.583 [INFO] com.okhttp.Mobile: resultcode is --->:202
 2021-05-03 16:44:43.583 [INFO] com.okhttp.Mobile: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
 2021-05-03 17:56:15.456 [INFO] com.okhttp.OkHttpPost: return code is:200
 2021-05-03 17:56:15.459 [INFO] com.okhttp.OkHttpPost: return body is--->:okhttp3.internal.http.RealResponseBody@33afa13b
 2021-05-03 17:57:46.361 [INFO] com.okhttp.OkHttpPost: return code is:200
-2021-05-03 17:57:46.365 [INFO] com.okhttp.OkHttpPost: return body is--->:{"reason":"查询成功!","result":{"city":"上海","realtime":{"temperature":"22","humidity":"66","info":"多云","wid":"01","direct":"东北风","power":"2级","aqi":"58"},"future":[{"date":"2021-05-03","temperature":"18\/24℃","weather":"多云转小雨","wid":{"day":"01","night":"07"},"direct":"南风转北风"},{"date":"2021-05-04","temperature":"16\/22℃","weather":"中雨转阴","wid":{"day":"08","night":"02"},"direct":"北风"},{"date":"2021-05-05","temperature":"17\/25℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东北风转西南风"},{"date":"2021-05-06","temperature":"18\/25℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"东风转北风"},{"date":"2021-05-07","temperature":"19\/28℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西南风转东风"}]},"error_code":0}
+2021-05-03 17:57:46.365 [INFO] com.okhttp.OkHttpPost: return body is--->:{"reason":"鏌ヨ鎴愬姛!","result":{"city":"涓婃捣","realtime":{"temperature":"22","humidity":"66","info":"澶氫簯","wid":"01","direct":"涓滃寳椋�","power":"2绾�","aqi":"58"},"future":[{"date":"2021-05-03","temperature":"18\/24鈩�","weather":"澶氫簯杞皬闆�","wid":{"day":"01","night":"07"},"direct":"鍗楅杞寳椋�"},{"date":"2021-05-04","temperature":"16\/22鈩�","weather":"涓洦杞槾","wid":{"day":"08","night":"02"},"direct":"鍖楅"},{"date":"2021-05-05","temperature":"17\/25鈩�","weather":"闃�","wid":{"day":"02","night":"02"},"direct":"涓滃寳椋庤浆瑗垮崡椋�"},{"date":"2021-05-06","temperature":"18\/25鈩�","weather":"闃磋浆灏忛洦","wid":{"day":"02","night":"07"},"direct":"涓滈杞寳椋�"},{"date":"2021-05-07","temperature":"19\/28鈩�","weather":"闃�","wid":{"day":"02","night":"02"},"direct":"瑗垮崡椋庤浆涓滈"}]},"error_code":0}
 2021-05-03 17:59:06.367 [INFO] com.okhttp.Weather: responsecode is :200
 2021-05-03 17:59:06.369 [INFO] com.okhttp.Weather: resultcode is :null
-2021-05-03 17:59:06.370 [INFO] com.okhttp.Weather: body is :{"reason":"查询成功!","result":{"city":"上海","realtime":{"temperature":"22","humidity":"66","info":"多云","wid":"01","direct":"东北风","power":"2级","aqi":"58"},"future":[{"date":"2021-05-03","temperature":"18\/24℃","weather":"多云转小雨","wid":{"day":"01","night":"07"},"direct":"南风转北风"},{"date":"2021-05-04","temperature":"16\/22℃","weather":"中雨转阴","wid":{"day":"08","night":"02"},"direct":"北风"},{"date":"2021-05-05","temperature":"17\/25℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东北风转西南风"},{"date":"2021-05-06","temperature":"18\/25℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"东风转北风"},{"date":"2021-05-07","temperature":"19\/28℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西南风转东风"}]},"error_code":0}
+2021-05-03 17:59:06.370 [INFO] com.okhttp.Weather: body is :{"reason":"鏌ヨ鎴愬姛!","result":{"city":"涓婃捣","realtime":{"temperature":"22","humidity":"66","info":"澶氫簯","wid":"01","direct":"涓滃寳椋�","power":"2绾�","aqi":"58"},"future":[{"date":"2021-05-03","temperature":"18\/24鈩�","weather":"澶氫簯杞皬闆�","wid":{"day":"01","night":"07"},"direct":"鍗楅杞寳椋�"},{"date":"2021-05-04","temperature":"16\/22鈩�","weather":"涓洦杞槾","wid":{"day":"08","night":"02"},"direct":"鍖楅"},{"date":"2021-05-05","temperature":"17\/25鈩�","weather":"闃�","wid":{"day":"02","night":"02"},"direct":"涓滃寳椋庤浆瑗垮崡椋�"},{"date":"2021-05-06","temperature":"18\/25鈩�","weather":"闃磋浆灏忛洦","wid":{"day":"02","night":"07"},"direct":"涓滈杞寳椋�"},{"date":"2021-05-07","temperature":"19\/28鈩�","weather":"闃�","wid":{"day":"02","night":"02"},"direct":"瑗垮崡椋庤浆涓滈"}]},"error_code":0}
 2021-05-03 17:59:06.424 [INFO] com.okhttp.Weather: responsecode is :200
 2021-05-03 17:59:06.424 [INFO] com.okhttp.Weather: resultcode is :null
-2021-05-03 17:59:06.425 [INFO] com.okhttp.Weather: body is :{"reason":"暂不支持该城市","result":null,"error_code":207301}
+2021-05-03 17:59:06.425 [INFO] com.okhttp.Weather: body is :{"reason":"鏆備笉鏀寔璇ュ煄甯�","result":null,"error_code":207301}
 2021-05-03 17:59:06.454 [INFO] com.okhttp.Weather: responsecode is :200
 2021-05-03 17:59:06.454 [INFO] com.okhttp.Weather: resultcode is :101
-2021-05-03 17:59:06.454 [INFO] com.okhttp.Weather: body is :{"resultcode":"101","reason":"错误的请求KEY","result":null,"error_code":10001}
+2021-05-03 17:59:06.454 [INFO] com.okhttp.Weather: body is :{"resultcode":"101","reason":"閿欒鐨勮姹侹EY","result":null,"error_code":10001}
 2021-05-03 18:01:42.333 [INFO] com.okhttp.Weather: responsecode is :200
 2021-05-03 18:01:42.336 [INFO] com.okhttp.Weather: resultcode is :null
-2021-05-03 18:01:42.336 [INFO] com.okhttp.Weather: body is :{"reason":"查询成功!","result":{"city":"上海","realtime":{"temperature":"22","humidity":"66","info":"多云","wid":"01","direct":"东北风","power":"2级","aqi":"58"},"future":[{"date":"2021-05-03","temperature":"18\/24℃","weather":"多云转小雨","wid":{"day":"01","night":"07"},"direct":"南风转北风"},{"date":"2021-05-04","temperature":"16\/22℃","weather":"中雨转阴","wid":{"day":"08","night":"02"},"direct":"北风"},{"date":"2021-05-05","temperature":"17\/25℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东北风转西南风"},{"date":"2021-05-06","temperature":"18\/25℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"东风转北风"},{"date":"2021-05-07","temperature":"19\/28℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西南风转东风"}]},"error_code":0}
-2021-05-03 18:01:42.336 [INFO] com.okhttp.Weather: params :city=上海&key=cd4587926813ec16367deb93688301aa
+2021-05-03 18:01:42.336 [INFO] com.okhttp.Weather: body is :{"reason":"鏌ヨ鎴愬姛!","result":{"city":"涓婃捣","realtime":{"temperature":"22","humidity":"66","info":"澶氫簯","wid":"01","direct":"涓滃寳椋�","power":"2绾�","aqi":"58"},"future":[{"date":"2021-05-03","temperature":"18\/24鈩�","weather":"澶氫簯杞皬闆�","wid":{"day":"01","night":"07"},"direct":"鍗楅杞寳椋�"},{"date":"2021-05-04","temperature":"16\/22鈩�","weather":"涓洦杞槾","wid":{"day":"08","night":"02"},"direct":"鍖楅"},{"date":"2021-05-05","temperature":"17\/25鈩�","weather":"闃�","wid":{"day":"02","night":"02"},"direct":"涓滃寳椋庤浆瑗垮崡椋�"},{"date":"2021-05-06","temperature":"18\/25鈩�","weather":"闃磋浆灏忛洦","wid":{"day":"02","night":"07"},"direct":"涓滈杞寳椋�"},{"date":"2021-05-07","temperature":"19\/28鈩�","weather":"闃�","wid":{"day":"02","night":"02"},"direct":"瑗垮崡椋庤浆涓滈"}]},"error_code":0}
+2021-05-03 18:01:42.336 [INFO] com.okhttp.Weather: params :city=涓婃捣&key=cd4587926813ec16367deb93688301aa
 2021-05-03 18:01:42.377 [INFO] com.okhttp.Weather: responsecode is :200
 2021-05-03 18:01:42.377 [INFO] com.okhttp.Weather: resultcode is :null
-2021-05-03 18:01:42.377 [INFO] com.okhttp.Weather: body is :{"reason":"暂不支持该城市","result":null,"error_code":207301}
+2021-05-03 18:01:42.377 [INFO] com.okhttp.Weather: body is :{"reason":"鏆備笉鏀寔璇ュ煄甯�","result":null,"error_code":207301}
 2021-05-03 18:01:42.377 [INFO] com.okhttp.Weather: params :city=bengbu&key=cd4587926813ec16367deb93688301aa
 2021-05-03 18:01:42.406 [INFO] com.okhttp.Weather: responsecode is :200
 2021-05-03 18:01:42.407 [INFO] com.okhttp.Weather: resultcode is :101
-2021-05-03 18:01:42.407 [INFO] com.okhttp.Weather: body is :{"resultcode":"101","reason":"错误的请求KEY","result":null,"error_code":10001}
-2021-05-03 18:01:42.407 [INFO] com.okhttp.Weather: params :city=上海&key=cd4587926813ec16367deb93688301a
+2021-05-03 18:01:42.407 [INFO] com.okhttp.Weather: body is :{"resultcode":"101","reason":"閿欒鐨勮姹侹EY","result":null,"error_code":10001}
+2021-05-03 18:01:42.407 [INFO] com.okhttp.Weather: params :city=涓婃捣&key=cd4587926813ec16367deb93688301a
+2021-05-04 22:30:23.258 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-04 22:30:23.261 [INFO] com.okhttp.MobileLocal: resultcode is --->:200
+2021-05-04 22:30:23.261 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"����","city":"����","areacode":"0550","zip":"239000","company":"�ƶ�","card":""},"error_code":0}
+2021-05-04 22:30:23.320 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-04 22:30:23.320 [INFO] com.okhttp.MobileLocal: resultcode is --->:200
+2021-05-04 22:30:23.320 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"����","city":"����","areacode":"0550","zip":"239000","company":"�ƶ�","card":""},"error_code":0}
+2021-05-04 22:30:23.366 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-04 22:30:23.366 [INFO] com.okhttp.MobileLocal: resultcode is --->:101
+2021-05-04 22:30:23.366 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"101","reason":"���������KEY!!","result":null,"error_code":10001}
+2021-05-04 22:30:23.433 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-04 22:30:23.434 [INFO] com.okhttp.MobileLocal: resultcode is --->:202
+2021-05-04 22:30:23.434 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-04 22:30:23.493 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:30:23.493 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-04 22:30:23.493 [INFO] com.okhttp.Weather: body is :{"reason":"��ѯ�ɹ�!","result":{"city":"�Ϻ�","realtime":{"temperature":"17","humidity":"79","info":"��","wid":"02","direct":"����","power":"1��","aqi":"38"},"future":[{"date":"2021-05-04","temperature":"16\/23��","weather":"С��ת��","wid":{"day":"07","night":"02"},"direct":"�Ϸ�ת�����޷���"},{"date":"2021-05-05","temperature":"17\/26��","weather":"��","wid":{"day":"02","night":"02"},"direct":"������ת���Ϸ�"},{"date":"2021-05-06","temperature":"18\/25��","weather":"��תС��","wid":{"day":"02","night":"07"},"direct":"���Ϸ�ת����"},{"date":"2021-05-07","temperature":"18\/27��","weather":"��","wid":{"day":"02","night":"02"},"direct":"���Ϸ�ת����"},{"date":"2021-05-08","temperature":"19\/27��","weather":"��","wid":{"day":"02","night":"02"},"direct":"����ת���Ϸ�"}]},"error_code":0}
+2021-05-04 22:30:23.493 [INFO] com.okhttp.Weather: params :city=�Ϻ�&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:30:23.578 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:30:23.578 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-04 22:30:23.578 [INFO] com.okhttp.Weather: body is :{"reason":"�ݲ�֧�ָó���","result":null,"error_code":207301}
+2021-05-04 22:30:23.579 [INFO] com.okhttp.Weather: params :city=bengbu&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:30:23.608 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:30:23.608 [INFO] com.okhttp.Weather: resultcode is :101
+2021-05-04 22:30:23.608 [INFO] com.okhttp.Weather: body is :{"resultcode":"101","reason":"���������KEY","result":null,"error_code":10001}
+2021-05-04 22:30:23.608 [INFO] com.okhttp.Weather: params :city=�Ϻ�&key=cd4587926813ec16367deb93688301a
+2021-05-04 22:33:54.230 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-04 22:33:54.233 [INFO] com.okhttp.MobileLocal: resultcode is --->:200
+2021-05-04 22:33:54.233 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"����","city":"����","areacode":"0550","zip":"239000","company":"�ƶ�","card":""},"error_code":0}
+2021-05-04 22:33:54.316 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-04 22:33:54.317 [INFO] com.okhttp.MobileLocal: resultcode is --->:200
+2021-05-04 22:33:54.317 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"����","city":"����","areacode":"0550","zip":"239000","company":"�ƶ�","card":""},"error_code":0}
+2021-05-04 22:33:54.351 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-04 22:33:54.351 [INFO] com.okhttp.MobileLocal: resultcode is --->:101
+2021-05-04 22:33:54.351 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"101","reason":"���������KEY!!","result":null,"error_code":10001}
+2021-05-04 22:33:54.403 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-04 22:33:54.403 [INFO] com.okhttp.MobileLocal: resultcode is --->:202
+2021-05-04 22:33:54.403 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-04 22:33:54.454 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:33:54.455 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-04 22:33:54.455 [INFO] com.okhttp.Weather: body is :{"reason":"��ѯ�ɹ�!","result":{"city":"�Ϻ�","realtime":{"temperature":"17","humidity":"79","info":"��","wid":"02","direct":"����","power":"1��","aqi":"38"},"future":[{"date":"2021-05-04","temperature":"16\/23��","weather":"С��ת��","wid":{"day":"07","night":"02"},"direct":"�Ϸ�ת�����޷���"},{"date":"2021-05-05","temperature":"17\/26��","weather":"��","wid":{"day":"02","night":"02"},"direct":"������ת���Ϸ�"},{"date":"2021-05-06","temperature":"18\/25��","weather":"��תС��","wid":{"day":"02","night":"07"},"direct":"���Ϸ�ת����"},{"date":"2021-05-07","temperature":"18\/27��","weather":"��","wid":{"day":"02","night":"02"},"direct":"���Ϸ�ת����"},{"date":"2021-05-08","temperature":"19\/27��","weather":"��","wid":{"day":"02","night":"02"},"direct":"����ת���Ϸ�"}]},"error_code":0}
+2021-05-04 22:33:54.455 [INFO] com.okhttp.Weather: params :city=�Ϻ�&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:33:54.507 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:33:54.508 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-04 22:33:54.508 [INFO] com.okhttp.Weather: body is :{"reason":"�ݲ�֧�ָó���","result":null,"error_code":207301}
+2021-05-04 22:33:54.508 [INFO] com.okhttp.Weather: params :city=bengbu&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:33:54.542 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:33:54.542 [INFO] com.okhttp.Weather: resultcode is :101
+2021-05-04 22:33:54.542 [INFO] com.okhttp.Weather: body is :{"resultcode":"101","reason":"���������KEY","result":null,"error_code":10001}
+2021-05-04 22:33:54.542 [INFO] com.okhttp.Weather: params :city=�Ϻ�&key=cd4587926813ec16367deb93688301a
+2021-05-04 22:40:05.144 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:40:05.147 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-04 22:40:05.148 [INFO] com.okhttp.Weather: body is :{"reason":"查询成功!","result":{"city":"上海","realtime":{"temperature":"17","humidity":"80","info":"阴","wid":"02","direct":"西南风","power":"1级","aqi":"38"},"future":[{"date":"2021-05-04","temperature":"16\/23℃","weather":"小雨转阴","wid":{"day":"07","night":"02"},"direct":"南风转持续无风向"},{"date":"2021-05-05","temperature":"17\/26℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东北风转东南风"},{"date":"2021-05-06","temperature":"18\/25℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"东南风转西风"},{"date":"2021-05-07","temperature":"18\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西南风转东风"},{"date":"2021-05-08","temperature":"19\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西风转东南风"}]},"error_code":0}
+2021-05-04 22:40:05.148 [INFO] com.okhttp.Weather: params :city=上海&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:40:05.198 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:40:05.198 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-04 22:40:05.198 [INFO] com.okhttp.Weather: body is :{"reason":"暂不支持该城市","result":null,"error_code":207301}
+2021-05-04 22:40:05.198 [INFO] com.okhttp.Weather: params :city=bengbu&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:40:05.232 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:40:05.232 [INFO] com.okhttp.Weather: resultcode is :101
+2021-05-04 22:40:05.232 [INFO] com.okhttp.Weather: body is :{"resultcode":"101","reason":"错误的请求KEY","result":null,"error_code":10001}
+2021-05-04 22:40:05.232 [INFO] com.okhttp.Weather: params :city=上海&key=cd4587926813ec16367deb93688301a
+2021-05-04 22:40:39.153 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:40:39.156 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-04 22:40:39.156 [INFO] com.okhttp.Weather: body is :{"reason":"查询成功!","result":{"city":"上海","realtime":{"temperature":"17","humidity":"80","info":"阴","wid":"02","direct":"西南风","power":"1级","aqi":"38"},"future":[{"date":"2021-05-04","temperature":"16\/23℃","weather":"小雨转阴","wid":{"day":"07","night":"02"},"direct":"南风转持续无风向"},{"date":"2021-05-05","temperature":"17\/26℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东北风转东南风"},{"date":"2021-05-06","temperature":"18\/25℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"东南风转西风"},{"date":"2021-05-07","temperature":"18\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西南风转东风"},{"date":"2021-05-08","temperature":"19\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西风转东南风"}]},"error_code":0}
+2021-05-04 22:40:39.156 [INFO] com.okhttp.Weather: params :city=上海&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:40:39.219 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:40:39.219 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-04 22:40:39.219 [INFO] com.okhttp.Weather: body is :{"reason":"查询成功!","result":{"city":"上海","realtime":{"temperature":"17","humidity":"80","info":"阴","wid":"02","direct":"西南风","power":"1级","aqi":"38"},"future":[{"date":"2021-05-04","temperature":"16\/23℃","weather":"小雨转阴","wid":{"day":"07","night":"02"},"direct":"南风转持续无风向"},{"date":"2021-05-05","temperature":"17\/26℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东北风转东南风"},{"date":"2021-05-06","temperature":"18\/25℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"东南风转西风"},{"date":"2021-05-07","temperature":"18\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西南风转东风"},{"date":"2021-05-08","temperature":"19\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西风转东南风"}]},"error_code":0}
+2021-05-04 22:40:39.219 [INFO] com.okhttp.Weather: params :city=上海&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:40:39.269 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:40:39.269 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-04 22:40:39.269 [INFO] com.okhttp.Weather: body is :{"reason":"暂不支持该城市","result":null,"error_code":207301}
+2021-05-04 22:40:39.269 [INFO] com.okhttp.Weather: params :city=bengbu&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:40:39.330 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:40:39.330 [INFO] com.okhttp.Weather: resultcode is :101
+2021-05-04 22:40:39.330 [INFO] com.okhttp.Weather: body is :{"resultcode":"101","reason":"错误的请求KEY","result":null,"error_code":10001}
+2021-05-04 22:40:39.330 [INFO] com.okhttp.Weather: params :city=蚌埠&key=cd4587926813ec16367deb93688301a
+2021-05-04 22:41:11.953 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:41:11.955 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-04 22:41:11.956 [INFO] com.okhttp.Weather: body is :{"reason":"查询成功!","result":{"city":"上海","realtime":{"temperature":"17","humidity":"80","info":"阴","wid":"02","direct":"西南风","power":"1级","aqi":"38"},"future":[{"date":"2021-05-04","temperature":"16\/23℃","weather":"小雨转阴","wid":{"day":"07","night":"02"},"direct":"南风转持续无风向"},{"date":"2021-05-05","temperature":"17\/26℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东北风转东南风"},{"date":"2021-05-06","temperature":"18\/25℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"东南风转西风"},{"date":"2021-05-07","temperature":"18\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西南风转东风"},{"date":"2021-05-08","temperature":"19\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西风转东南风"}]},"error_code":0}
+2021-05-04 22:41:11.956 [INFO] com.okhttp.Weather: params :city=上海&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:41:12.007 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:41:12.007 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-04 22:41:12.007 [INFO] com.okhttp.Weather: body is :{"reason":"查询成功!","result":{"city":"上海","realtime":{"temperature":"17","humidity":"80","info":"阴","wid":"02","direct":"西南风","power":"1级","aqi":"38"},"future":[{"date":"2021-05-04","temperature":"16\/23℃","weather":"小雨转阴","wid":{"day":"07","night":"02"},"direct":"南风转持续无风向"},{"date":"2021-05-05","temperature":"17\/26℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东北风转东南风"},{"date":"2021-05-06","temperature":"18\/25℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"东南风转西风"},{"date":"2021-05-07","temperature":"18\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西南风转东风"},{"date":"2021-05-08","temperature":"19\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西风转东南风"}]},"error_code":0}
+2021-05-04 22:41:12.007 [INFO] com.okhttp.Weather: params :city=上海&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:41:12.063 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:41:12.063 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-04 22:41:12.063 [INFO] com.okhttp.Weather: body is :{"reason":"暂不支持该城市","result":null,"error_code":207301}
+2021-05-04 22:41:12.063 [INFO] com.okhttp.Weather: params :city=bengbu&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:41:12.119 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:41:12.119 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-04 22:41:12.119 [INFO] com.okhttp.Weather: body is :{"reason":"查询成功!","result":{"city":"蚌埠","realtime":{"temperature":"17","humidity":"68","info":"多云","wid":"01","direct":"西风","power":"2级","aqi":"123"},"future":[{"date":"2021-05-04","temperature":"12\/24℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"北风转西南风"},{"date":"2021-05-05","temperature":"15\/26℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"西风转南风"},{"date":"2021-05-06","temperature":"15\/27℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"西南风转西风"},{"date":"2021-05-07","temperature":"12\/24℃","weather":"多云转晴","wid":{"day":"01","night":"00"},"direct":"西北风转西南风"},{"date":"2021-05-08","temperature":"16\/28℃","weather":"晴","wid":{"day":"00","night":"00"},"direct":"西南风转南风"}]},"error_code":0}
+2021-05-04 22:41:12.119 [INFO] com.okhttp.Weather: params :city=蚌埠&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:41:28.534 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-04 22:41:28.537 [INFO] com.okhttp.MobileLocal: resultcode is --->:200
+2021-05-04 22:41:28.537 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-04 22:41:28.593 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-04 22:41:28.594 [INFO] com.okhttp.MobileLocal: resultcode is --->:200
+2021-05-04 22:41:28.594 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-04 22:41:28.628 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-04 22:41:28.629 [INFO] com.okhttp.MobileLocal: resultcode is --->:101
+2021-05-04 22:41:28.629 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-04 22:41:28.682 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-04 22:41:28.683 [INFO] com.okhttp.MobileLocal: resultcode is --->:202
+2021-05-04 22:41:28.683 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-04 22:42:47.696 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:42:47.699 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-04 22:42:47.699 [INFO] com.okhttp.Weather: body is :{"reason":"查询成功!","result":{"city":"上海","realtime":{"temperature":"17","humidity":"80","info":"阴","wid":"02","direct":"西南风","power":"1级","aqi":"38"},"future":[{"date":"2021-05-04","temperature":"16\/23℃","weather":"小雨转阴","wid":{"day":"07","night":"02"},"direct":"南风转持续无风向"},{"date":"2021-05-05","temperature":"17\/26℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东北风转东南风"},{"date":"2021-05-06","temperature":"18\/25℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"东南风转西风"},{"date":"2021-05-07","temperature":"18\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西南风转东风"},{"date":"2021-05-08","temperature":"19\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西风转东南风"}]},"error_code":0}
+2021-05-04 22:42:47.699 [INFO] com.okhttp.Weather: params :city=上海&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:42:47.785 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:42:47.785 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-04 22:42:47.785 [INFO] com.okhttp.Weather: body is :{"reason":"查询成功!","result":{"city":"上海","realtime":{"temperature":"17","humidity":"80","info":"阴","wid":"02","direct":"西南风","power":"1级","aqi":"38"},"future":[{"date":"2021-05-04","temperature":"16\/23℃","weather":"小雨转阴","wid":{"day":"07","night":"02"},"direct":"南风转持续无风向"},{"date":"2021-05-05","temperature":"17\/26℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东北风转东南风"},{"date":"2021-05-06","temperature":"18\/25℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"东南风转西风"},{"date":"2021-05-07","temperature":"18\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西南风转东风"},{"date":"2021-05-08","temperature":"19\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西风转东南风"}]},"error_code":0}
+2021-05-04 22:42:47.785 [INFO] com.okhttp.Weather: params :city=上海&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:42:47.830 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:42:47.830 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-04 22:42:47.830 [INFO] com.okhttp.Weather: body is :{"reason":"暂不支持该城市","result":null,"error_code":207301}
+2021-05-04 22:42:47.830 [INFO] com.okhttp.Weather: params :city=bengbu&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:42:47.881 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:42:47.881 [INFO] com.okhttp.Weather: resultcode is :null
+2021-05-04 22:42:47.881 [INFO] com.okhttp.Weather: body is :{"reason":"查询成功!","result":{"city":"蚌埠","realtime":{"temperature":"17","humidity":"68","info":"多云","wid":"01","direct":"西风","power":"2级","aqi":"123"},"future":[{"date":"2021-05-04","temperature":"12\/24℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"北风转西南风"},{"date":"2021-05-05","temperature":"15\/26℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"西风转南风"},{"date":"2021-05-06","temperature":"15\/27℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"西南风转西风"},{"date":"2021-05-07","temperature":"12\/24℃","weather":"多云转晴","wid":{"day":"01","night":"00"},"direct":"西北风转西南风"},{"date":"2021-05-08","temperature":"16\/28℃","weather":"晴","wid":{"day":"00","night":"00"},"direct":"西南风转南风"}]},"error_code":0}
+2021-05-04 22:42:47.881 [INFO] com.okhttp.Weather: params :city=蚌埠&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:45:15.922 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:45:15.925 [INFO] com.okhttp.Weather: resultcode is :查询成功!
+2021-05-04 22:45:15.925 [INFO] com.okhttp.Weather: body is :{"reason":"查询成功!","result":{"city":"上海","realtime":{"temperature":"17","humidity":"80","info":"阴","wid":"02","direct":"西南风","power":"1级","aqi":"38"},"future":[{"date":"2021-05-04","temperature":"16\/23℃","weather":"小雨转阴","wid":{"day":"07","night":"02"},"direct":"南风转持续无风向"},{"date":"2021-05-05","temperature":"17\/26℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东北风转东南风"},{"date":"2021-05-06","temperature":"18\/25℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"东南风转西风"},{"date":"2021-05-07","temperature":"18\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西南风转东风"},{"date":"2021-05-08","temperature":"19\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西风转东南风"}]},"error_code":0}
+2021-05-04 22:45:15.925 [INFO] com.okhttp.Weather: params :city=上海&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:45:18.993 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:45:18.993 [INFO] com.okhttp.Weather: resultcode is :查询成功!
+2021-05-04 22:45:18.993 [INFO] com.okhttp.Weather: body is :{"reason":"查询成功!","result":{"city":"上海","realtime":{"temperature":"17","humidity":"80","info":"阴","wid":"02","direct":"西南风","power":"1级","aqi":"38"},"future":[{"date":"2021-05-04","temperature":"16\/23℃","weather":"小雨转阴","wid":{"day":"07","night":"02"},"direct":"南风转持续无风向"},{"date":"2021-05-05","temperature":"17\/26℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东北风转东南风"},{"date":"2021-05-06","temperature":"18\/25℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"东南风转西风"},{"date":"2021-05-07","temperature":"18\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西南风转东风"},{"date":"2021-05-08","temperature":"19\/27℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"西风转东南风"}]},"error_code":0}
+2021-05-04 22:45:18.993 [INFO] com.okhttp.Weather: params :city=上海&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:45:19.043 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:45:19.043 [INFO] com.okhttp.Weather: resultcode is :暂不支持该城市
+2021-05-04 22:45:19.043 [INFO] com.okhttp.Weather: body is :{"reason":"暂不支持该城市","result":null,"error_code":207301}
+2021-05-04 22:45:19.043 [INFO] com.okhttp.Weather: params :city=bengbu&key=cd4587926813ec16367deb93688301aa
+2021-05-04 22:45:19.097 [INFO] com.okhttp.Weather: responsecode is :200
+2021-05-04 22:45:19.097 [INFO] com.okhttp.Weather: resultcode is :查询成功!
+2021-05-04 22:45:19.097 [INFO] com.okhttp.Weather: body is :{"reason":"查询成功!","result":{"city":"蚌埠","realtime":{"temperature":"17","humidity":"68","info":"多云","wid":"01","direct":"西风","power":"2级","aqi":"123"},"future":[{"date":"2021-05-04","temperature":"12\/24℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"北风转西南风"},{"date":"2021-05-05","temperature":"15\/26℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"西风转南风"},{"date":"2021-05-06","temperature":"15\/27℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"西南风转西风"},{"date":"2021-05-07","temperature":"12\/24℃","weather":"多云转晴","wid":{"day":"01","night":"00"},"direct":"西北风转西南风"},{"date":"2021-05-08","temperature":"16\/28℃","weather":"晴","wid":{"day":"00","night":"00"},"direct":"西南风转南风"}]},"error_code":0}
+2021-05-04 22:45:19.097 [INFO] com.okhttp.Weather: params :city=蚌埠&key=cd4587926813ec16367deb93688301aa
