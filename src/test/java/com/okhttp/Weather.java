@@ -17,18 +17,18 @@ public class Weather {
         String url = Constants.WEATHER;
         String method = "post";
         Response response = HttpUtil.call(method, url, params);
-        String body = null;
+        String responsebody = null;
         try {
-            body = response.body().string();
+            responsebody = response.body().string();
         } catch (IOException e) {
             e.printStackTrace();
             LOGGER.error("-----TestLogException----", e.getMessage());
         }
-        JSONObject jsonObject = JSONObject.parseObject(body);
+        JSONObject jsonObject = JSONObject.parseObject(responsebody);
         String resultcode = (String)jsonObject.get("resultcode");
         LOGGER.info("responsecode is :{}", response.code());
         LOGGER.info("resultcode is :{}", resultcode);
-        LOGGER.info("body is :{}", body);
+        LOGGER.info("body is :{}", responsebody);
         LOGGER.info("params :{}", params);
     }
 

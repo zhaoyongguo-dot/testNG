@@ -21,8 +21,8 @@ public class Param {
     @DataProvider(name = "datas")
     public Object[][] datas() {
         return new Object[][]{
-                {"尼古拉斯", "赵四"},
                 {"亚历山大", "二世"},
+                {"尼古拉斯", "赵四"},
                 {"小林", "杏奈"}
         };
     }

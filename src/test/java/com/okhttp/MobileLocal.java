@@ -19,18 +19,18 @@ public class MobileLocal {
         String method =  Constants.METHOD;
         Response response = HttpUtil.call(method, url, params);
         int code = response.code();
-        String body = null;
+        String responsebody = null;
         try {
-            body = response.body().string();
+            responsebody = response.body().string();
         } catch (IOException e) {
             e.printStackTrace();
             LOGGER.error("-----TestLogException-----:{}", e.getMessage());
         }
-        JSONObject jsonObject1 = JSONObject.parseObject(body);
+        JSONObject jsonObject1 = JSONObject.parseObject(responsebody);
         String resultcode = (String)jsonObject1.get("resultcode");
         LOGGER.info("responsecode is --->:{}",code);
         LOGGER.info("resultcode is --->:{}",resultcode);
-        LOGGER.info("body is --->:{}",body);
+        LOGGER.info("body is --->:{}",responsebody);
         Assert.assertEquals(resultcode, "200", "查询失败！");
 
     }

@@ -10,11 +10,11 @@ public class HttpUtil {
 
     private final static Logger LOGGER = LoggerFactory.getLogger(HttpUtil.class);
     // get Method
-    public static Response get(String url, String param) {
+    public static Response get(String url, String params) {
         OkHttpClient client = new OkHttpClient();
         Request request = new Request
                 .Builder()
-                .url(url + "?" + param)
+                .url(url + "?" + params)
                 .get()
                 .build();
         try {
@@ -22,35 +22,81 @@ public class HttpUtil {
             return response;
         } catch (IOException e) {
             e.printStackTrace();
+            LOGGER.error("response err:{}", e.getMessage());
         }
         return null;
     }
 
     // post Method
-    public static Response post(String url, String param) {
+    public static Response post(String url, String params) {
         OkHttpClient client = new OkHttpClient();
-        MediaType type = MediaType.Companion.parse("application/x-www-form-urlencoded");
-        RequestBody body = RequestBody.Companion.create(param, type);
+        MediaType mediaTypetype = MediaType.Companion.parse("application/x-www-form-urlencoded");
+        RequestBody requestBodybody = RequestBody.Companion.create(params, mediaTypetype);
         Request request = new Request
                 .Builder()
                 .url(url)
-                .post(body)
+                .post(requestBodybody)
                 .build();
         try {
             Response response = client.newCall(request).execute();
             return response;
         } catch (IOException e) {
             e.printStackTrace();
+            LOGGER.error("response err:{}", e.getMessage());
+        }
+        return null;
+    }
+
+    // put Method
+    public static Response put(String url, String params) {
+        OkHttpClient client = new OkHttpClient();
+        MediaType mediaTypetype = MediaType.Companion.parse("application/x-www-form-urlencoded");
+        RequestBody requestBodybody = RequestBody.Companion.create(params, mediaTypetype);
+        Request request = new Request
+                .Builder()
+                .url(url)
+                .put(requestBodybody)
+                .build();
+        try {
+            Response response = client.newCall(request).execute();
+            return response;
+        } catch (IOException e) {
+            e.printStackTrace();
+            LOGGER.error("response err:{}", e.getMessage());
+        }
+        return null;
+    }
+
+    // delete Method
+    public static Response delete(String url, String params) {
+        OkHttpClient client = new OkHttpClient();
+        MediaType mediaType = MediaType.Companion.parse("application/x-www-form-urlencoded");
+        RequestBody requestBody = RequestBody.Companion.create(params, mediaType);
+        Request request = new Request
+                .Builder()
+                .url(url)
+                .delete(requestBody)
+                .build();
+        try {
+            Response response = client.newCall(request).execute();
+            return response;
+        } catch (IOException e) {
+            e.printStackTrace();
+            LOGGER.error("response err:{}", e.getMessage());
         }
         return null;
     }
 
     // call Method
-    public static Response call(String method, String url, String param) {
+    public static Response call(String method, String url, String params) {
         if("get".equalsIgnoreCase(method)) {
-            return get(url, param);
+            return get(url, params);
         } else if ("post".equalsIgnoreCase(method)) {
-            return post(url, param);
+            return post(url, params);
+        } else if ("put".equalsIgnoreCase(method)) {
+            return put(url, params);
+        } else if ("delete".equalsIgnoreCase(method)) {
+            return delete(url, params);
         }
         return null;
     }
