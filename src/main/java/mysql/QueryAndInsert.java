@@ -26,10 +26,8 @@ public class QueryAndInsert {
             statement = connection.createStatement();
             int count = statement.executeUpdate(sql);
             log.info("插入几条数据:{}", count);
-            if (statement != null) {
-                statement.close();
-                log.info("关闭声明");
-            }
+            statement.close();
+            log.info("关闭声明");
         } catch (SQLException throwables) {
             throwables.printStackTrace();
             log.info("sql异常:{}", throwables.getMessage());
@@ -50,14 +48,10 @@ public class QueryAndInsert {
                                    "name:" + resultSet.getString("stock_state_name") + "\t" +
                                    "language:" + resultSet.getString("language"));
             }
-            if (resultSet != null) {
-                resultSet.close();
-                log.info("关闭记录表");
-            }
-            if (statement != null) {
-                statement.close();
-                log.info("关闭声明");
-            }
+            resultSet.close();
+            log.info("关闭记录表");
+            statement.close();
+            log.info("关闭声明");
         } catch (SQLException throwables) {
             throwables.printStackTrace();
             log.info("sql异常:{}", throwables.getMessage());
@@ -78,7 +72,7 @@ public class QueryAndInsert {
             log.info("数据库驱动没有安装");
         } catch (SQLException throwables) {
             throwables.printStackTrace();
-            log.info("数据库连接异常", throwables.getMessage());
+            log.info("数据库连接异常:{}", throwables.getMessage());
         }
         return connection;
     }
@@ -91,7 +85,7 @@ public class QueryAndInsert {
                 log.info("关闭连接");
             } catch (SQLException throwables) {
                 throwables.printStackTrace();
-                log.info("释放数据库连接异常", throwables.getMessage());
+                log.info("释放数据库连接异常:{}", throwables.getMessage());
             }
         }
     }
