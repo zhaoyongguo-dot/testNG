@@ -522,3 +522,67 @@ Etag: 43d0924b8ad0e9a8c409b5695a52598d
 2021-05-04 22:45:19.097 [INFO] com.okhttp.Weather: resultcode is :查询成功!
 2021-05-04 22:45:19.097 [INFO] com.okhttp.Weather: body is :{"reason":"查询成功!","result":{"city":"蚌埠","realtime":{"temperature":"17","humidity":"68","info":"多云","wid":"01","direct":"西风","power":"2级","aqi":"123"},"future":[{"date":"2021-05-04","temperature":"12\/24℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"北风转西南风"},{"date":"2021-05-05","temperature":"15\/26℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"西风转南风"},{"date":"2021-05-06","temperature":"15\/27℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"西南风转西风"},{"date":"2021-05-07","temperature":"12\/24℃","weather":"多云转晴","wid":{"day":"01","night":"00"},"direct":"西北风转西南风"},{"date":"2021-05-08","temperature":"16\/28℃","weather":"晴","wid":{"day":"00","night":"00"},"direct":"西南风转南风"}]},"error_code":0}
 2021-05-04 22:45:19.097 [INFO] com.okhttp.Weather: params :city=蚌埠&key=cd4587926813ec16367deb93688301aa
+2021-05-04 23:46:13.693 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-04 23:46:13.696 [INFO] com.okhttp.MobileLocal: resultcode is --->:200
+2021-05-04 23:46:13.696 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-04 23:46:13.696 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-04 23:46:13.746 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-04 23:46:13.746 [INFO] com.okhttp.MobileLocal: resultcode is --->:200
+2021-05-04 23:46:13.746 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-04 23:46:13.746 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-04 23:46:13.783 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-04 23:46:13.783 [INFO] com.okhttp.MobileLocal: resultcode is --->:101
+2021-05-04 23:46:13.783 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-04 23:46:13.784 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-04 23:46:13.839 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-04 23:46:13.839 [INFO] com.okhttp.MobileLocal: resultcode is --->:202
+2021-05-04 23:46:13.839 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-04 23:46:13.839 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-05 15:16:27.206 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-05 15:16:27.209 [INFO] com.okhttp.MobileLocal: resultcode is --->:200
+2021-05-05 15:16:27.209 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-05 15:16:27.209 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-05 15:16:27.269 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-05 15:16:27.269 [INFO] com.okhttp.MobileLocal: resultcode is --->:200
+2021-05-05 15:16:27.269 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-05 15:16:27.269 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-05 15:16:27.307 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-05 15:16:27.307 [INFO] com.okhttp.MobileLocal: resultcode is --->:101
+2021-05-05 15:16:27.307 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-05 15:16:27.307 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-05 15:16:27.357 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-05 15:16:27.357 [INFO] com.okhttp.MobileLocal: resultcode is --->:202
+2021-05-05 15:16:27.357 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-05 15:16:27.357 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-05 15:22:48.231 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-05 15:22:48.234 [INFO] com.okhttp.MobileLocal: resultcode is --->:200
+2021-05-05 15:22:48.234 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-05 15:22:48.234 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-05 15:22:48.293 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-05 15:22:48.294 [INFO] com.okhttp.MobileLocal: resultcode is --->:200
+2021-05-05 15:22:48.294 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-05 15:22:48.294 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-05 15:22:48.340 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-05 15:22:48.340 [INFO] com.okhttp.MobileLocal: resultcode is --->:101
+2021-05-05 15:22:48.340 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-05 15:22:48.340 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-05 15:22:48.394 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-05 15:22:48.394 [INFO] com.okhttp.MobileLocal: resultcode is --->:202
+2021-05-05 15:22:48.395 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-05 15:22:48.395 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-05 15:32:14.697 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-05 15:32:14.700 [INFO] com.okhttp.MobileLocal: resultcode is --->:200
+2021-05-05 15:32:14.700 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-05 15:32:14.700 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-05 15:32:14.760 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-05 15:32:14.760 [INFO] com.okhttp.MobileLocal: resultcode is --->:200
+2021-05-05 15:32:14.760 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-05 15:32:14.760 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-05 15:32:14.804 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-05 15:32:14.804 [INFO] com.okhttp.MobileLocal: resultcode is --->:101
+2021-05-05 15:32:14.804 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-05 15:32:14.804 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-05 15:32:14.860 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-05 15:32:14.860 [INFO] com.okhttp.MobileLocal: resultcode is --->:202
+2021-05-05 15:32:14.860 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-05 15:32:14.860 [INFO] com.okhttp.MobileLocal: protocal:http/1.1

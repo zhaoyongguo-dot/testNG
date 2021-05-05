@@ -1,6 +1,7 @@
 package com.okhttp;
 
 import com.alibaba.fastjson.JSONObject;
+import okhttp3.Headers;
 import okhttp3.Response;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,6 +32,7 @@ public class MobileLocal {
         LOGGER.info("responsecode is --->:{}",code);
         LOGGER.info("resultcode is --->:{}",resultcode);
         LOGGER.info("body is --->:{}",responsebody);
+        LOGGER.info("protocal:{}", response.protocol());
         Assert.assertEquals(resultcode, "200", "查询失败！");
 
     }

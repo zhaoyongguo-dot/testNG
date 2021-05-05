@@ -8,6 +8,20 @@
 7. 清空生成的文件:mvn clean
 8. 显示版本信息:mvn -version/-v
 
+检查自己的maven依赖，发现已经引入了slf4j-api-xx.jar了，这是为什么呢？其原因是，SLF4J本身不是一个日志实现库，而是一个日志库的抽象层，它必须依赖底层的日志库，SLF4J必须和其他日志库配合才能正常运行。一般来说，需要将抽象层（例如slf4j-api-xx.jar）+中间层（例如slf4j-log4j12）+实现层（例如log4j）这三层都配置好才能保证SLF4J正常运行。有的日志库也可以去掉中间层，例如slf4j-api和slf4j-simple就可以直接配合。
+引入下面的依赖，重新编译后就正常了，注意假如你从maven库里复制来的有 test，需要改成 compile或者就不加这个scope，不加的时候默认是compile，才能正常使用，test表示只有在测试环境下，才可以使用，而springboot是运行在main方法中，不属于测试环境，所以这个包就相当于没有加入依赖，也就没有被加载到。改成compile则表示编译的时候就会加载此jar包
+	<dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.8.0-beta4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.8.0-beta4</version>
+        </dependency>
+原文链接：https://blog.csdn.net/qq_40136782/article/details/108659851
+
 git add -u <==> git add –update 提交所有被删除和修改的文件到数据暂存区
 git add .                       提交所有修改的和新建的数据暂存区
 git add -A <==>git add –all     提交所有被删除、被替换、被修改和新增的文件到数据暂存区
@@ -27,7 +41,10 @@ invoked 调用
 redundant 多余的
 new 对象的时候自动补全:ctrl + alt + v
 快速复制一行:ctrl + d
+快速删除一行:ctrl + y
 快速解决:alt + enter
+ctrl + shift + enter
+ctrl + shift + 上下
 
 TestNG的注解:
 注解	            描述
@@ -47,3 +64,20 @@ TestNG的注解:
 @Listeners	    定义一个测试类的监听器。
 @Parameters	    介绍如何将参数传递给@Test方法。
 @Test	        标记一个类或方法作为测试的一部分。
+
+接口分类:
+web service:基于http协议 + soup协议
+http:       基于http协议            HTTP协议	使用广泛、轻量级、跨平台、跨语言的，但凡是第三方提供的API都会有HTTP版本的接口
+rest:       基于restful协议
+FTP:	    基于TCP/IP协议          文件传输协议，FTP协议包括两个组成部分,其一为FTP服务器,其二为FTP客户端。 其中FTP服务器用来存储文件
+WebSocket:	基于udp、tcp协议	      是一个底层的，双向通信协议 ，适合于客户端和服务器端之间信息实时交互
+RPC: 	    基于HTTP、TCP、UDP协议  RPC技术是指远程过程调用，它本质上是一种Client/Server模式，可以像调用本地方法一样去调用远程服务器上的方法，支持多种数据传输方式（Json、XML、Binary、Protobuf等）
+
+mysql驱动:
+https://dev.mysql.com/downloads/
+mvn以来:
+https://mvnrepository.com/artifact/com.alibaba/fastjson/1.2.76
+github桌面版:
+https://desktop.github.com/
+github:
+https://github.com/
