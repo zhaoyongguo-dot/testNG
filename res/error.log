@@ -586,3 +586,22 @@ Etag: 43d0924b8ad0e9a8c409b5695a52598d
 2021-05-05 15:32:14.860 [INFO] com.okhttp.MobileLocal: resultcode is --->:202
 2021-05-05 15:32:14.860 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
 2021-05-05 15:32:14.860 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-06 22:43:49.055 [INFO] com.mysql.MyJdbc: SQLException:Unknown column '蚌埠' in 'field list'
+2021-05-06 22:51:37.431 [INFO] com.mysql.MyJdbc: SQLException:Column 'region_id	' not found.
+2021-05-06 22:52:25.020 [INFO] com.mysql.MyJdbc: SQLException:Column 'region_id	' not found.
+2021-05-06 23:02:09.317 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-06 23:02:09.319 [INFO] com.okhttp.MobileLocal: resultcode is --->:200
+2021-05-06 23:02:09.320 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-06 23:02:09.320 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-06 23:02:09.386 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-06 23:02:09.386 [INFO] com.okhttp.MobileLocal: resultcode is --->:200
+2021-05-06 23:02:09.386 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-05-06 23:02:09.386 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-06 23:02:09.427 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-06 23:02:09.427 [INFO] com.okhttp.MobileLocal: resultcode is --->:101
+2021-05-06 23:02:09.427 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-05-06 23:02:09.427 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
+2021-05-06 23:02:09.485 [INFO] com.okhttp.MobileLocal: responsecode is --->:200
+2021-05-06 23:02:09.485 [INFO] com.okhttp.MobileLocal: resultcode is --->:202
+2021-05-06 23:02:09.485 [INFO] com.okhttp.MobileLocal: body is --->:{"resultcode":"202","reason":"Wrong phone number!","result":null,"error_code":201102}
+2021-05-06 23:02:09.485 [INFO] com.okhttp.MobileLocal: protocal:http/1.1
