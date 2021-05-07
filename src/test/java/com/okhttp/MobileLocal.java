@@ -32,7 +32,8 @@ public class MobileLocal {
         LOGGER.info("responsecode is --->:{}",code);
         LOGGER.info("resultcode is --->:{}",resultcode);
         LOGGER.info("body is --->:{}",responsebody);
-        LOGGER.info("protocal:{}", response.protocol());
+        LOGGER.info("protocol--->:{}", response.protocol());
+        LOGGER.info("protocol--->:" + response.protocol());
         Assert.assertEquals(resultcode, "200", "查询失败！");
 
     }

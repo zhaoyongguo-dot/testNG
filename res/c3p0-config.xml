@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+    <named-config name="">
+        <property name="user">root</property>
+        <property name="pwd">root</property>
+        <property name="user">root</property>
+        <property name="user">root</property>
+        <property name="user">root</property>
+        <property name="user">root</property>
+        <property name="user">root</property>
+        <property name="user">root</property>
+        <property name="user">root</property>
+    </named-config>
+</c3p0-config>
