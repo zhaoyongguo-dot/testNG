@@ -1,6 +1,5 @@
 package com.mysql;
 
-import com.mysql.cj.jdbc.MysqlConnectionPoolDataSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
@@ -108,7 +107,7 @@ public class MyJdbc {
     private static void releaseConections(Connection con) {
         if (con != null) {
             try {
-                con.close(); // 关闭连接
+                con.close(); // 关闭连接 + 扔了
             } catch (SQLException throwables) {
                 throwables.printStackTrace();
                 log.info("SQLException:{}", throwables.getMessage());
