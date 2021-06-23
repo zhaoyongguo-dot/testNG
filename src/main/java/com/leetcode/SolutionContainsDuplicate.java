@@ -1,7 +1,7 @@
 package com.leetcode;
 
 /**
- * @description:TODO
+ * @description:containsDuplicate
  * @author:zyg
  * @time:2021/5/9 下午 10:45
  */
