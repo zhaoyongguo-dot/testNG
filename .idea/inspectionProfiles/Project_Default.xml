@@ -30,7 +30,7 @@
       <option name="IGNORE_JAVADOC_PERIOD" value="true" />
       <option name="IGNORE_DUPLICATED_THROWS" value="false" />
       <option name="IGNORE_POINT_TO_ITSELF" value="false" />
-      <option name="myAdditionalJavadocTags" value="time:2021/5/6,author:zyg,description:TODO,time:2021/5/7,time:2021/5/9,time:2021/5/10,time:2021/5/12,description:iSValidSuDo,time:2021/6/14,time:2021/6/23,description:rotatePicture,description:containsDuplicate,description:intersect,description:SolutionMoveZeroes,description:SolutionPlusOne,description:SolutionRotate,description:singleNumber,description:twoSum3" />
+      <option name="myAdditionalJavadocTags" value="time:2021/5/6,author:zyg,description:TODO,time:2021/5/7,time:2021/5/9,time:2021/5/10,time:2021/5/12,description:iSValidSuDo,time:2021/6/14,time:2021/6/23,description:rotatePicture,description:containsDuplicate,description:intersect,description:SolutionMoveZeroes,description:SolutionPlusOne,description:SolutionRotate,description:singleNumber,description:twoSum3,time:2021/6/24,description:removeDuplicates,description:maxProfit,NotNull" />
     </inspection_tool>
   </profile>
 </component>
