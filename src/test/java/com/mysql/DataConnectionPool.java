@@ -12,7 +12,7 @@ import java.sql.SQLException;
  * @time:2021/5/8 上午 12:48
  */
 // 依赖两个jar包,c3p0 + mchange-commons-java
-    // 配置文件名字不要改 + configName不要改,要一样
+// 配置文件名字不要改 + configName不要改,要一样
 public class DataConnectionPool {
     public static void main(String[] args) {
         try {

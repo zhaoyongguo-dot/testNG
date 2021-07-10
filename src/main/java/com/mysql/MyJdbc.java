@@ -28,9 +28,9 @@ public class MyJdbc {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
             log.info("database driver is not install:{}", e.getMessage());
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-            log.info("database connect err:{}", throwables.getMessage());
+        } catch (SQLException e) {
+            e.printStackTrace();
+            log.info("database connect err:{}", e.getMessage());
         }
     }
 }

@@ -18,7 +18,7 @@ public class Exception {
         log.info("测试exception");
     }
 
-    @Test(enabled = false, dependsOnMethods = "忽略测试")
+    @Test(enabled = false, description = "忽略测试")
     public void testEnable() {
         log.info("测试enable");
     }

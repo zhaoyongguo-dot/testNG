@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
-        <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%p] %c: %m%n</pattern>
-        </encoder>
-    </appender>
-
     <!--变量设置  -->
     <property name="LOG_FILE" value="D:/Kugou/IdeaProjects/testNG/res/error.log" />
     <property name="appName" value="myJOb"/>
+    <property name="CONSOLE_LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%p] %c: %m%n"/>
+    <property name="CONSOLE_LOG_PATTERN2" value="%yellow(%date{yyyy-MM-dd HH:mm:ss}) |%highlight(%-5level) |%blue(%thread) |%blue(%file:%line) |%green(%logger) |%cyan(%msg%n)"/>
+
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
     <!-- FileAppender（OutPutStreamAppender的子类）：将日志写入 文件。目标文件由file子节点来指定，如果文件已经存在，则根据append节点的值来判断是追加还是截断 -->
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
         <file>${LOG_FILE}</file>

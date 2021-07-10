@@ -1,7 +1,6 @@
 package com.okhttp;
 
 import com.alibaba.fastjson.JSONObject;
-import okhttp3.Headers;
 import okhttp3.Response;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,6 +9,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class MobileLocal {
 
@@ -18,11 +18,16 @@ public class MobileLocal {
     public void testMobleLocal(String params) {
         String url = Constants.MOBILELOCAL_URL;
         String method =  Constants.METHOD;
+        /**
+         * 引用HttpUtil的call方法
+         * 执行相应的方法调用
+         */
         Response response = HttpUtil.call(method, url, params);
+        assert response != null;
         int code = response.code();
         String responsebody = null;
         try {
-            responsebody = response.body().string();
+            responsebody = Objects.requireNonNull(response.body()).string();
         } catch (IOException e) {
             e.printStackTrace();
             LOGGER.error("-----TestLogException-----:{}", e.getMessage());

@@ -30,12 +30,12 @@ public class HttpUtil {
     // post Method
     public static Response post(String url, String params) {
         OkHttpClient client = new OkHttpClient();
-        MediaType mediaTypetype = MediaType.Companion.parse("application/x-www-form-urlencoded");
-        RequestBody requestBodybody = RequestBody.Companion.create(params, mediaTypetype);
+        MediaType mediaType = MediaType.Companion.parse("application/x-www-form-urlencoded");
+        RequestBody requestBody = RequestBody.Companion.create(params, mediaType);
         Request request = new Request
                 .Builder()
                 .url(url)
-                .post(requestBodybody)
+                .post(requestBody)
                 .build();
         try {
             Response response = client.newCall(request).execute();
@@ -50,12 +50,12 @@ public class HttpUtil {
     // put Method
     public static Response put(String url, String params) {
         OkHttpClient client = new OkHttpClient();
-        MediaType mediaTypetype = MediaType.Companion.parse("application/x-www-form-urlencoded");
-        RequestBody requestBodybody = RequestBody.Companion.create(params, mediaTypetype);
+        MediaType mediaType = MediaType.Companion.parse("application/x-www-form-urlencoded");
+        RequestBody requestBody = RequestBody.Companion.create(params, mediaType);
         Request request = new Request
                 .Builder()
                 .url(url)
-                .put(requestBodybody)
+                .put(requestBody)
                 .build();
         try {
             Response response = client.newCall(request).execute();
@@ -88,6 +88,14 @@ public class HttpUtil {
     }
 
     // call Method
+
+    /**
+     * 各种方法入口判断
+     * @param method get/post/put/ddelete
+     * @param url url
+     * @param params params
+     * @return response
+     */
     public static Response call(String method, String url, String params) {
         if("get".equalsIgnoreCase(method)) {
             return get(url, params);
