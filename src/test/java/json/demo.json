@@ -1,0 +1,200 @@
+[
+  {
+    "description": "这是我的第一个mock例子:用法:java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json",
+    "request": {
+      "uri": "/demo"
+    },
+    "response": {
+      "text": "第一个mock框架demo: headers:{Content-Type: text/html;charset=utf-8} -->解决中文乱码",
+      "headers": {
+        "Content-Type": "text/html;charset=utf-8"
+      }
+    }
+  },
+  {
+    "description": "带参数的get请求",
+    "request": {
+      "uri": "/get/with/params",
+      "method": "get",
+      "queries": {
+        "name": "cjl",
+        "age": "18"
+      }
+    },
+    "response": {
+      "json": {
+        "message": "带参数的get请求cjl/18",
+        "result": "success",
+        "code": "0000"
+      },
+      "headers": {
+        "Content-Type": "application/json;charset=utf-8"
+      }
+    }
+  },
+  {
+    "description": "带参数的post请求",
+    "request": {
+      "uri": "/post/with/params",
+      "method": "post",
+      "forms": {
+        "name": "zyg",
+        "age": "19"
+      }
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "application/json;charset=utf-8"
+      },
+      "json": {
+        "message": "带参数的post请求,body中的参数放在forms中",
+        "result": "success",
+        "code": "0000"
+      }
+    }
+  },
+  {
+    "description": "会返回cookies的不带参数的get请求",
+    "request": {
+      "uri": "/getCookies",
+      "method": "get"
+    },
+    "response":{
+      "headers": {
+        "Content-Type": "application/json;charset=utf-8",
+        "cookies":{
+          "login": "ture"
+        }
+      },
+      "json": {
+        "message": "恭喜你获得了cookies信息",
+        "result": "success",
+        "code": "0000"
+      }
+    }
+  },
+  {
+    "description": "带cookies的不带参数的get请求",
+    "request": {
+      "uri": "/get/with/cookies",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "headers": {
+      "Content-Type": "text/html;charset=utf-8"
+      },
+      "json": {
+        "message": "需要携带cookies才能访问的get请求",
+        "result": "success",
+        "code": "0000"
+      }
+    }
+  },
+  {
+    "description": "带cookies,带参数的json形式的post请求",
+    "request": {
+      "uri": "/post/with/cookies",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "cjl",
+        "age": "18"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "result": "带cookies,带参数的json形式的post请求",
+        "res_code": "0000",
+        "res_message": "success"
+      },
+      "headers": {
+        "Content-Type": "text/html;charset=utf-8"
+      }
+    }
+  },
+  {
+    "description":"这是一个带headers信息的post请求",
+    "request":{
+      "uri":"/post/with/headers",
+      "method":"post",
+      "headers":{
+        "content-type":"application/json"
+      },
+      "json":{
+        "name":"zyg",
+        "age":"19"
+      }
+    },
+    "response":{
+      "headers":{
+        "content-type":"application/json;charset=utf-8"
+      },
+      "json":{
+        "code":"0000",
+        "result":"success",
+        "message": "这是一个带headers信息的post请求"
+      }
+    }
+  },
+  {
+    "description":"这是一个带headers信息的post请求",
+    "request":{
+      "uri":"/post/with/headers2",
+      "method":"post",
+      "headers":{
+        "content-type":"application/x-www-form-urlencoded"
+      },
+      "json":{
+        "name":"zyg",
+        "age":"19"
+      }
+    },
+    "response":{
+      "headers":{
+        "content-type":"application/json;charset=utf-8"
+      },
+      "json":{
+        "code":"0000",
+        "result":"success",
+        "message": "这是一个带headers信息的post请求"
+      }
+    }
+  },
+  {
+    "description": "重定向的请求到百度",
+    "request": {
+      "uri": "/redirect"
+    },
+    "redirectTo": "http://www.baidu.com"
+  },
+  {
+    "description": "重定向到自己的地址",
+    "request": {
+      "uri": "/redirect/from/own"
+    },
+    "redirectTo": "/redirect/to/own"
+  },
+  {
+    "description": "自己写的重定向的目的网页",
+    "request": {
+      "uri": "/redirect/to/own"
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "application/json;charset=utf-8"
+      },
+      "json": {
+        "result": "重定向成功了",
+        "res_code": "0000",
+        "res_message": "success"
+      }
+    }
+  }
+]
+

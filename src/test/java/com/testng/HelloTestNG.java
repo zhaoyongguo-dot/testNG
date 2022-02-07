@@ -28,7 +28,7 @@ public class HelloTestNG {
     @Test(groups = {"fast"}, description = "生成产品")
     public void aFastTest() {
         System.out.println("Fast test");
-        Assert.assertEquals(false, true, "return false error");
+        Assert.fail("return false error");
     }
 
     // 依赖的方法失败了，后面的方法就不会执行了，除非加上alwaysRun

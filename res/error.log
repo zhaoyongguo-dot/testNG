@@ -14689,3 +14689,26 @@ java.sql.SQLException: No suitable driver
 2021-07-10 19:54:16.845 [INFO] com.okhttp_review.testCase: 响应码:203
 2021-07-10 19:54:16.845 [INFO] com.okhttp_review.testCase: 原 因:Empty
 2021-07-10 19:54:16.845 [INFO] com.okhttp_review.testCase: 返回体:{"resultcode":"203","reason":"Empty","result":null,"error_code":201103}
+2021-07-10 20:35:39.499 [INFO] com.okhttp_review.testCase: status_code:200
+2021-07-10 20:35:39.582 [INFO] com.okhttp_review.testCase: 响应码:200
+2021-07-10 20:35:39.582 [INFO] com.okhttp_review.testCase: 原 因:Return Successd!
+2021-07-10 20:35:39.582 [INFO] com.okhttp_review.testCase: 返回体:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-07-10 20:35:39.731 [INFO] com.okhttp_review.testCase: status_code:200
+2021-07-10 20:35:39.732 [INFO] com.okhttp_review.testCase: 响应码:200
+2021-07-10 20:35:39.732 [INFO] com.okhttp_review.testCase: 原 因:Return Successd!
+2021-07-10 20:35:39.732 [INFO] com.okhttp_review.testCase: 返回体:{"resultcode":"200","reason":"Return Successd!","result":{"province":"安徽","city":"滁州","areacode":"0550","zip":"239000","company":"移动","card":""},"error_code":0}
+2021-07-10 20:35:39.868 [INFO] com.okhttp_review.testCase: status_code:200
+2021-07-10 20:35:39.868 [INFO] com.okhttp_review.testCase: 响应码:101
+2021-07-10 20:35:39.868 [INFO] com.okhttp_review.testCase: 原 因:错误的请求KEY!!
+2021-07-10 20:35:39.868 [INFO] com.okhttp_review.testCase: 返回体:{"resultcode":"101","reason":"错误的请求KEY!!","result":null,"error_code":10001}
+2021-07-10 20:35:40.018 [INFO] com.okhttp_review.testCase: status_code:200
+2021-07-10 20:35:40.018 [INFO] com.okhttp_review.testCase: 响应码:203
+2021-07-10 20:35:40.019 [INFO] com.okhttp_review.testCase: 原 因:Empty
+2021-07-10 20:35:40.019 [INFO] com.okhttp_review.testCase: 返回体:{"resultcode":"203","reason":"Empty","result":null,"error_code":201103}
+2022-01-20 21:22:35.526 [INFO] com.okhttp.OkHttpPost: return code is:200
+2022-01-20 21:22:35.530 [INFO] com.okhttp.OkHttpPost: return body is--->:{"reason":"查询成功!","result":{"city":"上海","realtime":{"temperature":"5","humidity":"62","info":"阴","wid":"02","direct":"东北风","power":"4级","aqi":"27"},"future":[{"date":"2022-01-20","temperature":"4\/7℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东北风"},{"date":"2022-01-21","temperature":"5\/8℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东风"},{"date":"2022-01-22","temperature":"7\/11℃","weather":"小雨","wid":{"day":"07","night":"07"},"direct":"东风转北风"},{"date":"2022-01-23","temperature":"7\/11℃","weather":"小雨","wid":{"day":"07","night":"07"},"direct":"东北风"},{"date":"2022-01-24","temperature":"7\/9℃","weather":"小雨","wid":{"day":"07","night":"07"},"direct":"东北风转北风"}]},"error_code":0}
+2022-02-07 20:50:19.705 [INFO] com.javaLearnTest.enumTest: 男男性,1
+2022-02-07 20:52:03.470 [INFO] com.javaLearnTest.enumTest: 男性,1
+2022-02-07 20:53:28.225 [INFO] com.javaLearnTest.enumTest: 性别-男性,代号-1
+2022-02-07 20:54:37.281 [INFO] com.javaLearnTest.enumTest: 性别-男性,代号-1
+2022-02-07 20:54:54.862 [INFO] com.javaLearnTest.enumTest: 性别-女性,代号-0

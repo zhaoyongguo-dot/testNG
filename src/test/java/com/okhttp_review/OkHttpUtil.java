@@ -1,6 +1,5 @@
 package com.okhttp_review;
 
-import com.okhttp.OkHttpGet;
 import lombok.extern.slf4j.Slf4j;
 import okhttp3.*;
 
@@ -41,7 +40,7 @@ public class OkHttpUtil {
      */
     public static Response getMethod(String url, String params) {
 
-        /**
+        /*
          * 创建客户端 + 请求
          */
         OkHttpClient client = new OkHttpClient();
@@ -51,11 +50,10 @@ public class OkHttpUtil {
                 .get()
                 .build();
         try {
-            /**
+            /*
              * 执行请求 + 相应结果
              */
-            Response response = client.newCall(request).execute();
-            return response;
+            return client.newCall(request).execute();
         } catch (IOException e) {
             log.info("发起get请求异常:{}", e.getMessage());
         }
@@ -69,7 +67,7 @@ public class OkHttpUtil {
      * @return response
      */
     public static Response postMethod(String url, String params) {
-        /**
+        /*
          * 创建客户端 + mediaType + body
          */
         OkHttpClient client = new OkHttpClient();
@@ -80,12 +78,11 @@ public class OkHttpUtil {
                 .url(url)
                 .post(body)
                 .build();
-        /**
+        /*
          * 执行请求并返回结果
          */
         try {
-            Response response = client.newCall(request).execute();
-            return response;
+            return client.newCall(request).execute();
         } catch (IOException e) {
             log.info("message{}", e.getMessage());
         }
@@ -105,8 +102,7 @@ public class OkHttpUtil {
                 .put(body)
                 .build();
         try {
-            Response response = client.newCall(request).execute();
-            return response;
+            return client.newCall(request).execute();
         } catch (IOException e) {
             log.info("message{}", e.getMessage());
         }
@@ -126,8 +122,7 @@ public class OkHttpUtil {
                 .delete(body)
                 .build();
         try {
-            Response response = client.newCall(request).execute();
-            return response;
+            return client.newCall(request).execute();
         } catch (IOException e) {
             log.info(e.getMessage());
         }
